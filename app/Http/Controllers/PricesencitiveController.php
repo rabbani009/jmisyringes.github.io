@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Pricesencitive;
+use App\Models\Category;
+
 
 class PricesencitiveController extends Controller
 {
@@ -11,7 +13,10 @@ class PricesencitiveController extends Controller
     public function index()
     {
         $pricesencitives = Pricesencitive::orderBy('created_at', 'desc')->get();
-        return view('frontend.investors.pricesensitive', compact('pricesencitives'));
+
+        $categories = Category::with('subcategories.subsubcategories')->get();
+
+        return view('frontend.investors.pricesensitive', compact('pricesencitives','categories'));
     }
 
     
@@ -29,6 +34,8 @@ class PricesencitiveController extends Controller
         // Handle the case where the file doesn't exist
         return abort(404);
     }
+
+
     
     
     

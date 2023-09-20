@@ -14,7 +14,7 @@ class HomeController extends Controller
         
 
         $sliders = Slider::all();
-        // dd($sliders);
+      
         $features = Feature::all();
 
         $categories = Category::with('subcategories.subsubcategories')->get();

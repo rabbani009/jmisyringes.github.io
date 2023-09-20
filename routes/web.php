@@ -9,6 +9,7 @@ use App\Http\Controllers\MenuController;
 
 
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,7 +26,6 @@ Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
 
-// Route::get('/admin/subsubcategories', [SubsubcategoryController::class, 'index']);
 
 
 //Frontend routes...............
@@ -33,33 +33,33 @@ Route::group(['prefix' => 'admin'], function () {
 Route::get('/', [HomeController::class, 'getHome'])->name('home');
 
 
-Route::get('/product-view', function () { return view('frontend.product.product-view'); });
-
 //About Section......................
 
-Route::get('/mission', function () { return view('frontend.about.mission'); });
-Route::get('/message', function () { return view('frontend.about.message'); });
-Route::get('/certification', function () { return view('frontend.about.certification'); });
-Route::get('/award', function () { return view('frontend.about.award'); });
+
+Route::get('/mission', [MenuController::class, 'getMission'])->name('mission');
+Route::get('/message', [MenuController::class, 'getMessage'])->name('message');
+
+Route::get('/certification', [MenuController::class, 'getCertification'])->name('certification');
+
+Route::get('/award', [MenuController::class, 'getAward'])->name('award');
 
 
 //Investors Corners Section......................
 
-Route::get('/profile', function () { return view('frontend.investors.profile'); });
+
+
+Route::get('/profile', [MenuController::class, 'getProfile'])->name('profile');
 Route::get('/pricesencitive', [PricesencitiveController::class, 'index'])->name('pricesencitive');
 Route::get('/download/{filename}', [PricesencitiveController::class, 'download'])->name('download');
 
 
-//Prerational Excelence
+//Operational Excelence
 
-Route::get('/quality', function () { return view('frontend.quality.quality'); });
-
-
+Route::get('/quality', [MenuController::class, 'getQuality'])->name('quality');
 
 
 //Contact
 
-Route::get('/contact', function () { return view('frontend.contact.contact'); });
-
+Route::get('/contact', [MenuController::class, 'getContact'])->name('contact');
 
 
