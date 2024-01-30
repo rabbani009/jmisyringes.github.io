@@ -65,4 +65,10 @@ class MenuController extends Controller
         return view('frontend.about.award', compact('categories'));
 
     }
+    public function AdProductView(){ 
+
+  
+        return view('frontend.product.adproduct-view',);
+
+    }
 }

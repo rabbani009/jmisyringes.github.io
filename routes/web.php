@@ -33,20 +33,24 @@ Route::group(['prefix' => 'admin'], function () {
 Route::get('/', [HomeController::class, 'getHome'])->name('home');
 
 
-//About Section......................
+//Product view section..........
 
+Route::get('/AD-product-view', [MenuController::class, 'AdProductView'])->name('AD-product-view');
+
+
+
+
+
+
+//About Section.................
 
 Route::get('/mission', [MenuController::class, 'getMission'])->name('mission');
 Route::get('/message', [MenuController::class, 'getMessage'])->name('message');
-
 Route::get('/certification', [MenuController::class, 'getCertification'])->name('certification');
-
 Route::get('/award', [MenuController::class, 'getAward'])->name('award');
 
 
-//Investors Corners Section......................
-
-
+//Investors Corners Section.......
 
 Route::get('/profile', [MenuController::class, 'getProfile'])->name('profile');
 Route::get('/pricesencitive', [PricesencitiveController::class, 'index'])->name('pricesencitive');

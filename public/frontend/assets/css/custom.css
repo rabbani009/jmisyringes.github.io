@@ -109,9 +109,10 @@
   }
   
   .navbar .dropdown ul a {
-    padding: 10px 20px;
+    padding: 0.5px 20px;
     font-size: 14px;
     text-transform: none;
+
   }
   
   .navbar .dropdown ul a i {

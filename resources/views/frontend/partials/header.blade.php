@@ -69,29 +69,124 @@
           </li>
           <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-right"></i></a>
 <ul class="menu">
-    @foreach ($categories as $category)
+ 
+        <li class="dropdown">
+            <a href="{{url('/AD-product-view')}}">
+                <span>AD Syringes</span>
+            </a>
+        </li>
         <li class="dropdown">
             <a href="#">
-                <span>{{ $category->name }}</span>
-                <i class="bi bi-chevron-right"></i>
+                <span>Disposable Syringes</span>
             </a>
-            <ul>
-                @foreach ($category->subcategories as $subcategory)
-                    <li class="dropdown">
-                        <a href="#">
-                            <span>{{ $subcategory->name }}</span>
-                            <i class="bi bi-chevron-right"></i>
-                        </a>
-                        <ul>
-                            @foreach ($subcategory->subsubcategories as $subsubcategory)
-                                <li><a href="#">{{ $subsubcategory->name }}</a></li>
-                            @endforeach
-                        </ul>
-                    </li>
-                @endforeach
-            </ul>
         </li>
-    @endforeach
+        <li class="dropdown">
+            <a href="#">
+                <span>Toomey Syringe</span>
+            </a>
+        </li>
+        <li class="dropdown">
+            <a href="#">
+                <span>Insulin Syringes</span>
+            </a>
+        </li>
+        <li class="dropdown">
+            <a href="#">
+                <span>Disposable Needles</span>
+            </a>
+        </li>
+        <li class="dropdown">
+            <a href="#">
+                <span>Scalp Vein Set</span>
+            </a>
+        </li>
+        <li class="dropdown">
+            <a href="#">
+                <span>IV Infusion Set</span>
+            </a>
+        </li>
+        <li class="dropdown">
+            <a href="#">
+                <span>I.V. Cannula</span>
+            </a>
+        </li>
+        <li class="dropdown">
+            <a href="#">
+                <span>Blood Transfusion Set</span>
+            </a>
+        </li>
+        <li class="dropdown">
+            <a href="#">
+                <span>First Aid Bandage</span>
+            </a>
+        </li>
+        <li class="dropdown">
+            <a href="#">
+                <span>Urine Drainage Bag</span>
+            </a>
+        </li>
+        <li class="dropdown">
+            <a href="#">
+                <span>JMI Leg Bag</span>
+            </a>
+        </li>
+        <li class="dropdown">
+            <a href="#">
+                <span>JMI Nelaton Catheter</span>
+            </a>
+        </li>
+        <li class="dropdown">
+            <a href="#">
+                <span>JMI Disposable Stomach Tube</span>
+            </a>
+        </li>
+        <li class="dropdown">
+            <a href="#">
+                <span>JMI Umbilical Cord Clamp</span>
+            </a>
+        </li>
+        <li class="dropdown">
+            <a href="#">
+                <span>Wound Drain Tube</span>
+            </a>
+        </li>
+        <li class="dropdown">
+            <a href="#">
+                <span>Feeding Tube</span>
+            </a>
+        </li>
+        <li class="dropdown">
+            <a href="#">
+                <span>JMI Oral Dispenser</span>
+            </a>
+        </li>
+        <li class="dropdown">
+            <a href="#">
+                <span>Suction Catheter</span>
+            </a>
+        </li>
+        <li class="dropdown">
+            <a href="#">
+                <span>3-Way Stopcock</span>
+            </a>
+        </li>
+        <li class="dropdown">
+            <a href="#">
+                <span>JMI Blood Lancet</span>
+            </a>
+        </li>
+        <li class="dropdown">
+            <a href="#">
+                <span>Safety Box</span>
+            </a>
+        </li>
+        <li class="dropdown">
+            <a href="#">
+                <span>Copper T</span>
+            </a>
+        </li>
+
+ 
 </ul>
 
             </li>
