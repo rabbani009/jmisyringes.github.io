@@ -67,7 +67,7 @@
               </li>
             </ul>
           </li>
-          <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-right"></i></a>
+          <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
 <ul class="menu">
  
         <li class="dropdown">
@@ -91,22 +91,22 @@
             </a>
         </li>
         <li class="dropdown">
-            <a href="#">
+            <a href="{{url('/disposable-needles')}}">
                 <span>Disposable Needles</span>
             </a>
         </li>
         <li class="dropdown">
-            <a href="#">
+            <a href="{{url('/scalp-vein-set')}}">
                 <span>Scalp Vein Set</span>
             </a>
         </li>
         <li class="dropdown">
-            <a href="#">
+            <a href="{{url('/iv-infusion-set')}}">
                 <span>IV Infusion Set</span>
             </a>
         </li>
         <li class="dropdown">
-            <a href="#">
+            <a href="{{url('/iv-cannula')}}">
                 <span>I.V. Cannula</span>
             </a>
         </li>
@@ -191,7 +191,7 @@
 
             </li>
           <li><a class="nav-link scrollto " href="#">Export</a></li>
-          <li class="dropdown"><a href="#"><span>Operational Excellence</span> <i class="bi bi-chevron-right"></i></a>
+          <li class="dropdown"><a href="#"><span>Operational Excellence</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
                     <li><a href="{{url('quality')}}">Quality Policy</a></li>
                     <li><a href="#">Manufacturing Facilities</a></li>

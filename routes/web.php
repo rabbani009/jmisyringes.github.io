@@ -39,6 +39,12 @@ Route::get('/AD-product-view', [MenuController::class, 'AdProductView'])->name('
 Route::get('/disposable-syringes', [MenuController::class, 'disposableProductView'])->name('disposable-syringes');
 Route::get('/tommey-syringes', [MenuController::class, 'tommeyProductView'])->name('tommey-syringes');
 Route::get('/insulin-syringes', [MenuController::class, 'insulinProductView'])->name('insulin-syringes');
+Route::get('/disposable-needles', [MenuController::class, 'disposableNeedleProductView'])->name('disposable-needles');
+Route::get('/scalp-vein-set', [MenuController::class, 'scalpveinProductView'])->name('scalp-vein-set');
+Route::get('/iv-infusion-set', [MenuController::class, 'infusionProductView'])->name('iv-infusion-set');
+
+
+Route::get('/iv-cannula', [MenuController::class, 'cannulaProductView'])->name('iv-cannula');
 
 
 

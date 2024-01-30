@@ -78,6 +78,19 @@ class MenuController extends Controller
     public function insulinProductView(){ 
         return view('frontend.product.insulin-product-view',);
     }
+    public function disposableNeedleProductView(){ 
+        return view('frontend.product.disposableNeedle-product-view',);
+    }
+    public function scalpveinProductView(){ 
+        return view('frontend.product.scalpvein-product-view',);
+    }
+    public function infusionProductView(){ 
+        return view('frontend.product.infusion-product-view',);
+    }
+
+    public function cannulaProductView(){ 
+        return view('frontend.product.cannula-product-view',);
+    }
 
 
 }
