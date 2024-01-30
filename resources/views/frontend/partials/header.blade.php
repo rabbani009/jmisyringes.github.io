@@ -76,17 +76,17 @@
             </a>
         </li>
         <li class="dropdown">
-            <a href="#">
+            <a href="{{url('/disposable-syringes')}}">
                 <span>Disposable Syringes</span>
             </a>
         </li>
         <li class="dropdown">
-            <a href="#">
+            <a href="{{url('/tommey-syringes')}}">
                 <span>Toomey Syringe</span>
             </a>
         </li>
         <li class="dropdown">
-            <a href="#">
+            <a href="{{url('/insulin-syringes')}}">
                 <span>Insulin Syringes</span>
             </a>
         </li>

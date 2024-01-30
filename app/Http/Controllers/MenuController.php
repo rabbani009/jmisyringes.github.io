@@ -66,9 +66,18 @@ class MenuController extends Controller
 
     }
     public function AdProductView(){ 
-
-  
         return view('frontend.product.adproduct-view',);
-
     }
+
+    public function disposableProductView(){ 
+        return view('frontend.product.disposable-product-view',);
+    }
+    public function tommeyProductView(){ 
+        return view('frontend.product.tommey-product-view',);
+    }
+    public function insulinProductView(){ 
+        return view('frontend.product.insulin-product-view',);
+    }
+
+
 }

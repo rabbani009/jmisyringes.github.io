@@ -33,9 +33,12 @@ Route::group(['prefix' => 'admin'], function () {
 Route::get('/', [HomeController::class, 'getHome'])->name('home');
 
 
-//Product view section..........
+//All Product view section..........
 
 Route::get('/AD-product-view', [MenuController::class, 'AdProductView'])->name('AD-product-view');
+Route::get('/disposable-syringes', [MenuController::class, 'disposableProductView'])->name('disposable-syringes');
+Route::get('/tommey-syringes', [MenuController::class, 'tommeyProductView'])->name('tommey-syringes');
+Route::get('/insulin-syringes', [MenuController::class, 'insulinProductView'])->name('insulin-syringes');
 
 
 

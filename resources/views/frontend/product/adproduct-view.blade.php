@@ -543,7 +543,7 @@ ul li {
                                 <li><a href="{{url('/AD-product-view')}}">AD Syringes</a></li>
                                 <li class="active"><a href="#">Disposable Syringes</a></li>
                                 <li><a href="#">Toomey Syringe</a></li>
-                                <li><a href="#">Insolin Syringes</a></li>
+                                <li><a href="#">Insulin Syringes</a></li>
                                 <li><a href="#">Disposable Needles</a></li>
                                 <li><a href="#">Scalp Vein Set</a></li>
                                 <li><a href="#">IV Infusion Set</a></li>
