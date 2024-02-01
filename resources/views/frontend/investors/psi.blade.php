@@ -23,9 +23,12 @@
         border: 1px solid #ddd;
         padding: 8px;
         text-align: left;
+        color:#006B85;
+        line-height: 18px
     }
 
     th {
+        
         background-color: #f2f2f2;
     }
 
@@ -41,7 +44,6 @@
         text-decoration: none;
         text-align: center;
     }
-
      .view-link:hover {
         background-color: #FFFFFF;
         color:#006B85;
@@ -58,7 +60,7 @@
                 <div class="col-lg-12">
                     <div class="breadcrumb-wrapper">
                         <span>
-                            <a title="Homepage" href="index.html">Home</a>
+                            <a title="Homepage" href="#">Home</a>
                         </span>
                         <span>Price Sensitive Information</span>
                     </div>

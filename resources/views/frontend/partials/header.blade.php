@@ -41,7 +41,7 @@
                     <li class="dropdown"><a href="#">Unaudited Reports</a></li>
                     <li class="dropdown"><a href="#">Director's Report </a></li>
                     <li class="dropdown"><a href="#">Profile Of Directors</a></li>
-                    <li class="dropdown"><a href="#">Board of Directors & Top Management</a></li>
+                    <li class="dropdown"><a href="{{url('/profile')}}">Board of Directors & Top Management</a></li>
                     <li class="dropdown"><a href="#">Nature of Business of JSMD</a></li>
                     <li class="dropdown"><a href="#">Shareholding Composition</a></li>
                     <li class="dropdown"><a href="#">Info. Of Investor Relation Department</a></li>

@@ -40,30 +40,7 @@
                     </div>
                 <div class="row multi-columns-row ttm-boxes-spacing-15px">
                     <div class="ttm-box-col-wrapper col-lg-3 col-md-3 col-sm-6">
-                        <!-- featured-imagebox-team -->
-                        <div class="featured-imagebox featured-imagebox-team">
-                            <div class="ttm-team-box-view-overlay">
-                                <div class="featured-iconbox ttm-media-link">
-                                    <div class="media-block">
-                                        <a href="#" class="media-btn"><i class="ti ti-plus"></i></a>
-                                        <ul class="social-icons list-inline">
-                                            <li class="social-facebook"><a href="#"><i class="ti ti-facebook"></i></a></li>
-                                            <li class="social-twitter"><a href="#"><i class="ti ti-twitter-alt"></i></a></li>
-                                            <li class="social-instagram"><a href="#"><i class="ti ti-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="featured-thumbnail">
-                                    <img class="img-fluid" src="{{ asset('frontend/assets/images/profile/Chairman.jpg')}}" alt="image"> 
-                                </div>
-                            </div>
-                            <div class="featured-content featured-content-team">
-                                <div class="featured-title">
-                                    <h5><a href="#">Mr. Jabed Iqbal Pathan</a></h5>
-                                </div>
-                                <div class="team-position">Chairman</div>
-                            </div>
-                        </div><!-- featured-imagebox-team end-->
+                        
                     </div>
                     <div class="ttm-box-col-wrapper col-lg-3 col-md-3 col-sm-6">
                         <!-- featured-imagebox-team -->
@@ -91,6 +68,38 @@
                             </div>
                         </div><!-- featured-imagebox-team end-->
                     </div>
+                    <div class="ttm-box-col-wrapper col-lg-3 col-md-3 col-sm-6">
+                        <!-- featured-imagebox-team -->
+                        <div class="featured-imagebox featured-imagebox-team">
+                            <div class="ttm-team-box-view-overlay">
+                                <div class="featured-iconbox ttm-media-link">
+                                    <div class="media-block">
+                                        <a href="#" class="media-btn"><i class="ti ti-plus"></i></a>
+                                        <ul class="social-icons list-inline">
+                                            <li class="social-facebook"><a href="#"><i class="ti ti-facebook"></i></a></li>
+                                            <li class="social-twitter"><a href="#"><i class="ti ti-twitter-alt"></i></a></li>
+                                            <li class="social-instagram"><a href="#"><i class="ti ti-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="featured-thumbnail">
+                                    <img class="img-fluid" src="{{ asset('frontend/assets/images/profile/Chairman.jpg')}}" alt="image"> 
+                                </div>
+                            </div>
+                            <div class="featured-content featured-content-team">
+                                <div class="featured-title">
+                                    <h5><a href="#">Mr. Jabed Iqbal Pathan</a></h5>
+                                </div>
+                                <div class="team-position">Chairman</div>
+                            </div>
+                        </div><!-- featured-imagebox-team end-->
+                    </div>
+                   
+                    <div class="ttm-box-col-wrapper col-lg-3 col-md-3 col-sm-6">
+                        
+                    </div>
+
+
                     <div class="ttm-box-col-wrapper col-lg-3 col-md-3 col-sm-6">
                         <!-- featured-imagebox-team -->
                         <div class="featured-imagebox featured-imagebox-team">
