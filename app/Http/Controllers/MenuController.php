@@ -108,6 +108,13 @@ class MenuController extends Controller
     public function StomachProductView(){ 
         return view('frontend.product.Stomach-product-view');
     }
+    public function UmbilicalProductView(){ 
+        return view('frontend.product.Umbilical-product-view');
+    }
+
+    public function WoundProductView(){ 
+        return view('frontend.product.Wound-product-view');
+    }
 
 
 }

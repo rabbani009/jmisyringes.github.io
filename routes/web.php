@@ -48,11 +48,10 @@ Route::get('/first-aid-bandage', [MenuController::class, 'bandageProductView'])-
 Route::get('/urine-drainage-bag', [MenuController::class, 'drainageProductView'])->name('urine-drainage-bag');
 Route::get('/leg_bag', [MenuController::class, 'legProductView'])->name('leg_bag');
 Route::get('/Nelatob_Catheter', [MenuController::class, 'NelatobProductView'])->name('Nelatob_Catheter');
-
 Route::get('/JMI-Disposable-Stomach-Tube', [MenuController::class, 'StomachProductView'])->name('JMI-Disposable-Stomach-Tube');
+Route::get('/Umbilical_Cord_Clamp', [MenuController::class, 'UmbilicalProductView'])->name('Umbilical_Cord_Clamp');
 
-
-
+Route::get('/wound_dt', [MenuController::class, 'WoundProductView'])->name('wound_dt');
 
 
 

@@ -141,12 +141,12 @@
             </a>
         </li>
         <li class="dropdown">
-            <a href="#">
+            <a href="{{url('/Umbilical_Cord_Clamp')}}">
                 <span>JMI Umbilical Cord Clamp</span>
             </a>
         </li>
         <li class="dropdown">
-            <a href="#">
+            <a href="{{url('/wound_dt')}}">
                 <span>Wound Drain Tube</span>
             </a>
         </li>
