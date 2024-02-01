@@ -2,7 +2,7 @@
 <div class="first-footer ttm-bgcolor-skincolor">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 widget-area">
+            <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 widget-area">
                 <div class="featured-icon-box icon-align-before-content style1">
                     <div class="featured-icon">
                         <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
@@ -17,8 +17,8 @@
                        
                     </div>
                 </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 widget-area">
+            </div> -->
+            <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 widget-area">
                 <form id="subscribe-form" class="newsletter-form" method="post" action="#" data-mailchimp="true">
                     <div class="mailchimp-inputbox clearfix" id="subscribe-content"> 
                         <p><input type="email" name="email" placeholder="Enter Your Email Address..." required=""></p>
@@ -26,7 +26,7 @@
                     </div>
                     <div id="subscribe-msg"></div>
                 </form>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>
@@ -51,9 +51,6 @@
                     <h3 class="widget-title">Quick Links</h3>
                     <ul id="menu-footer-quick-links">
                         <li><a href="#">About Company</a></li>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">Support</a></li>
-                        <li><a href="#">About</a></li>
                         <li><a href="#">Careers</a></li>
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">Privacy Statement</a></li>
@@ -65,18 +62,24 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 widget-area">
                 <div class="widget style2 widget-out-link clearfix">
-                    <h3 class="widget-title">Recent News</h3>
+                    <h3 class="widget-title">Other Concerns</h3>
                     <ul class="widget-post ttm-recent-post-list pr-5">
                         <li>
-                            <a href="blog-single.html"><img src=" {{ asset('frontend/assets/images/blog/blog-one-100x95.jpg')}}" alt="post-img"></a>
-                            <span class="post-date"><i class="fa fa-calendar"></i>Oct 06, 2019</span>
-                            <a href="blog-single.html">Tests with Nursing Implicat Laboratory Technician</a>
+                            <!-- <a href="blog-single.html"><img src=" {{ asset('frontend/assets/images/blog/blog-one-100x95.jpg')}}" alt="post-img"></a> -->
+                            <span class="post-date"><i class="fa fa-calendar"></i>
+                            <a href="https://www.jmigroup-bd.com/">JMI GROUP</a>
                         </li>
                         <li>
-                            <a href="blog-single.html"><img src=" {{ asset('frontend/assets/images/blog/blog-two-100x95.jpg')}}" alt="post-img"></a>
-                            <span class="post-date"><i class="fa fa-calendar"></i>Oct 24, 2019</span>
-                            <a href="blog-single.html">Tests with Nursing Implicat Laboratory Technician</a>
+                            <!-- <a href="blog-single.html"><img src=" {{ asset('frontend/assets/images/blog/blog-one-100x95.jpg')}}" alt="post-img"></a> -->
+                            <span class="post-date"><i class="fa fa-calendar"></i>
+                            <a href="https://www.niprojmipharma.com/">NIPRO JMI PHARMA</a>
                         </li>
+                        <li>
+                            <!-- <a href="blog-single.html"><img src=" {{ asset('frontend/assets/images/blog/blog-one-100x95.jpg')}}" alt="post-img"></a> -->
+                            <span class="post-date"><i class="fa fa-calendar"></i>
+                            <a href="#">JMI VACCINE</a>
+                        </li>
+                       
                     </ul>
                 </div>
             </div>
@@ -87,7 +90,7 @@
     <div class="container">
         <div class="row copyright">
             <div class="col-sm-12" style="text-align: center;">
-                <span>Copyright © 2023 JMI GROUP</span>
+                <span>Copyright ©  2024 JMI Syringes & Medical Devices Limited .</span>
             </div>
         </div>
     </div>

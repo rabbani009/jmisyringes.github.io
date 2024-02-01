@@ -34,37 +34,29 @@
           </li>
           <li class="dropdown"><a href="#"><span>Investors Corner</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li class="dropdown"><a href="#"><span>Financial Information</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                    <li><a href="{{url('pricesencitive')}}">Price Sensitive Information</a></li>
-                    <li><a href="#">Notice & General Information</a></li>
-                    <li><a href="#">Info. Of Investor Relation Department</a></li>
-                    <li><a href="#">Nature of Business of JSMDL</a></li>
-                    <li><a href="#">Dividend Policy</a></li>
-                    <li><a href="#">Code of Conduct</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#"><span>Governance</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                    <!-- <li><a href="#">Board of Directors & Top Management</a></li> -->
-                    <li><a href="{{url('profile')}}">Profile Of Directors</a></li>
-                    <li><a href="#">Appointment of MD, CEO, CFO</a></li>
-                    <li><a href="#">Corporate Governance</a></li>
-                    <li><a href="#">Duties & Responsibilities of Management</a></li>
-                    <li><a href="#">Appointment of MD, CEO, CFO</a>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#"><span>Reports</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                    <li><a href="#">Annual/Auditor's Reports</a></li>
-                    <li><a href="#">Unaudited Reports</a></li>
-                    <li><a href="#">Credit Rating Reports</a></li>
-                    <li><a href="#">Dividend Distribution Compliance Report</a></li>
-                    <li><a href="#">Director's Report of 2021 & 2022</a></li>
-                    <li><a href="#">Link DSE CSE</a></li>
-                    <li><a href="#">Shareholding Composition</a></li>
-                </ul>
-              </li>
+            
+                
+                    <li class="dropdown"><a href="{{url('pricesencitive')}}">Price Sensitive Information</a></li>
+                    <li class="dropdown"><a href="#">Annual/Auditor's Reports</a></li>
+                    <li class="dropdown"><a href="#">Unaudited Reports</a></li>
+                    <li class="dropdown"><a href="#">Director's Report </a></li>
+                    <li class="dropdown"><a href="#">Profile Of Directors</a></li>
+                    <li class="dropdown"><a href="#">Board of Directors & Top Management</a></li>
+                    <li class="dropdown"><a href="#">Nature of Business of JSMD</a></li>
+                    <li class="dropdown"><a href="#">Shareholding Composition</a></li>
+                    <li class="dropdown"><a href="#">Info. Of Investor Relation Department</a></li>
+                    <li class="dropdown"><a href="#">Notice & General Information</a></li>
+                    <li class="dropdown"><a href="#">Credit Rating Reports</a></li>
+                    <li class="dropdown"><a href="#">Corporate Governance</a></li>
+                    <li class="dropdown"><a href="#">Appointment of MD, CEO, CFO</a></li>
+                    <li class="dropdown"><a href="#">Duties & Responsibilities of Mgmt</a></li>
+                    <li class="dropdown"><a href="#">Link DSE CSE</a></li>
+                    <li class="dropdown"><a href="#">Dividend Policy</a></li>
+                    <li class="dropdown"><a href="#">Dividend Distribution Compliance Report</a></li>
+                    <li class="dropdown"><a href="#">Unpaid Dividend</a></li>
+                    <li class="dropdown"><a href="#">Code of Conduct</a></li>
+               
+           
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
@@ -185,8 +177,6 @@
                 <span>Copper T</span>
             </a>
         </li>
-
- 
 </ul>
 
             </li>
