@@ -176,12 +176,12 @@
             </a>
         </li>
         <li class="dropdown">
-            <a href="#">
+            <a href="{{url('/safety-Box')}}">
                 <span>Safety Box</span>
             </a>
         </li>
         <li class="dropdown">
-            <a href="#">
+            <a href="{{url('/copper-t')}}">
                 <span>Copper T</span>
             </a>
         </li>

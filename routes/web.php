@@ -55,9 +55,10 @@ Route::get('/feeding_tube', [MenuController::class, 'FeedProductView'])->name('f
 Route::get('/JMI-Oral-Dispenser', [MenuController::class, 'DispenserProductView'])->name('JMI-Oral-Dispenser');
 Route::get('/suction_catheter', [MenuController::class, 'SuctionProductView'])->name('suction_catheter');
 Route::get('/3-Way-Stopcock', [MenuController::class, 'StopcockProductView'])->name('3-Way-Stopcock');
-
 Route::get('/blood_Lancet', [MenuController::class, 'LancetProductView'])->name('blood_Lancet');
+Route::get('/safety-Box', [MenuController::class, 'SafetyProductView'])->name('safety-Box');
 
+Route::get('/copper-t', [MenuController::class, 'CopperProductView'])->name('copper-t');
 
 
 //About Section.................

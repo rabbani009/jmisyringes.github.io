@@ -126,9 +126,15 @@ class MenuController extends Controller
     public function StopcockProductView(){ 
         return view('frontend.product.stopcock-product-view');
     }
-
     public function LancetProductView(){ 
         return view('frontend.product.lancet-product-view');
+    }
+    public function SafetyProductView(){ 
+        return view('frontend.product.safety-product-view');
+    }
+
+    public function CopperProductView(){ 
+        return view('frontend.product.copper-product-view');
     }
 
 
