@@ -44,8 +44,13 @@ Route::get('/scalp-vein-set', [MenuController::class, 'scalpveinProductView'])->
 Route::get('/iv-infusion-set', [MenuController::class, 'infusionProductView'])->name('iv-infusion-set');
 Route::get('/iv-cannula', [MenuController::class, 'cannulaProductView'])->name('iv-cannula');
 Route::get('/blood-transfusion-set', [MenuController::class, 'transfusionProductView'])->name('blood-transfusion-set');
-
 Route::get('/first-aid-bandage', [MenuController::class, 'bandageProductView'])->name('first-aid-bandage');
+Route::get('/urine-drainage-bag', [MenuController::class, 'drainageProductView'])->name('urine-drainage-bag');
+Route::get('/leg_bag', [MenuController::class, 'legProductView'])->name('leg_bag');
+
+Route::get('/Nelatob_Catheter', [MenuController::class, 'NelatobProductView'])->name('Nelatob_Catheter');
+
+
 
 
 

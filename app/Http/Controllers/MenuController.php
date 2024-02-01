@@ -93,9 +93,18 @@ class MenuController extends Controller
     public function transfusionProductView(){ 
         return view('frontend.product.transfusion-product-view');
     }
-
     public function bandageProductView(){ 
         return view('frontend.product.bandage-product-view');
+    }
+    public function drainageProductView(){ 
+        return view('frontend.product.drainage-product-view');
+    }  
+    public function legProductView(){ 
+        return view('frontend.product.leg-product-view');
+    }
+
+    public function NelatobProductView(){ 
+        return view('frontend.product.Nelatob-Catheter-product-view');
     }
 
 

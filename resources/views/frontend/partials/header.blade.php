@@ -121,17 +121,17 @@
             </a>
         </li>
         <li class="dropdown">
-            <a href="#">
+            <a href="{{url('/urine-drainage-bag')}}">
                 <span>Urine Drainage Bag</span>
             </a>
         </li>
         <li class="dropdown">
-            <a href="#">
+            <a href="{{url('/leg_bag')}}">
                 <span>JMI Leg Bag</span>
             </a>
         </li>
         <li class="dropdown">
-            <a href="#">
+            <a href="{{url('/Nelatob_Catheter')}}">
                 <span>JMI Nelaton Catheter</span>
             </a>
         </li>
