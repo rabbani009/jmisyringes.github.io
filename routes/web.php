@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\PricesencitiveController;
+use App\Http\Controllers\InvestorsController;
 use App\Http\Controllers\SubsubcategoryController;
 use App\Http\Controllers\MenuController;
 
@@ -72,8 +72,9 @@ Route::get('/award', [MenuController::class, 'getAward'])->name('award');
 //Investors Corners Section.......
 
 Route::get('/profile', [MenuController::class, 'getProfile'])->name('profile');
-Route::get('/pricesencitive', [PricesencitiveController::class, 'index'])->name('pricesencitive');
-Route::get('/download/{filename}', [PricesencitiveController::class, 'download'])->name('download');
+
+Route::get('/psi', [InvestorsController::class, 'PSIView'])->name('psi');
+
 
 
 //Operational Excelence

@@ -36,7 +36,7 @@
             <ul>
             
                 
-                    <li class="dropdown"><a href="{{url('pricesencitive')}}">Price Sensitive Information</a></li>
+                    <li class="dropdown"><a href="{{url('psi')}}">Price Sensitive Information</a></li>
                     <li class="dropdown"><a href="#">Annual/Auditor's Reports</a></li>
                     <li class="dropdown"><a href="#">Unaudited Reports</a></li>
                     <li class="dropdown"><a href="#">Director's Report </a></li>
