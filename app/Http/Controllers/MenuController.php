@@ -102,9 +102,11 @@ class MenuController extends Controller
     public function legProductView(){ 
         return view('frontend.product.leg-product-view');
     }
-
     public function NelatobProductView(){ 
         return view('frontend.product.Nelatob-Catheter-product-view');
+    }
+    public function StomachProductView(){ 
+        return view('frontend.product.Stomach-product-view');
     }
 
 

@@ -136,7 +136,7 @@
             </a>
         </li>
         <li class="dropdown">
-            <a href="#">
+            <a href="{{url('/JMI-Disposable-Stomach-Tube')}}">
                 <span>JMI Disposable Stomach Tube</span>
             </a>
         </li>
