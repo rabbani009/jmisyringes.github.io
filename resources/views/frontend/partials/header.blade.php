@@ -111,12 +111,12 @@
             </a>
         </li>
         <li class="dropdown">
-            <a href="#">
+            <a href="{{url('/blood-transfusion-set')}}">
                 <span>Blood Transfusion Set</span>
             </a>
         </li>
         <li class="dropdown">
-            <a href="#">
+            <a href="{{url('/first-aid-bandage')}}">
                 <span>First Aid Bandage</span>
             </a>
         </li>

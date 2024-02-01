@@ -42,11 +42,10 @@ Route::get('/insulin-syringes', [MenuController::class, 'insulinProductView'])->
 Route::get('/disposable-needles', [MenuController::class, 'disposableNeedleProductView'])->name('disposable-needles');
 Route::get('/scalp-vein-set', [MenuController::class, 'scalpveinProductView'])->name('scalp-vein-set');
 Route::get('/iv-infusion-set', [MenuController::class, 'infusionProductView'])->name('iv-infusion-set');
-
-
 Route::get('/iv-cannula', [MenuController::class, 'cannulaProductView'])->name('iv-cannula');
+Route::get('/blood-transfusion-set', [MenuController::class, 'transfusionProductView'])->name('blood-transfusion-set');
 
-
+Route::get('/first-aid-bandage', [MenuController::class, 'bandageProductView'])->name('first-aid-bandage');
 
 
 

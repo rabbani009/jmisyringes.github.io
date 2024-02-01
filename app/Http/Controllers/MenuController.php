@@ -66,30 +66,36 @@ class MenuController extends Controller
 
     }
     public function AdProductView(){ 
-        return view('frontend.product.adproduct-view',);
+        return view('frontend.product.adproduct-view');
     }
 
     public function disposableProductView(){ 
-        return view('frontend.product.disposable-product-view',);
+        return view('frontend.product.disposable-product-view');
     }
     public function tommeyProductView(){ 
-        return view('frontend.product.tommey-product-view',);
+        return view('frontend.product.tommey-product-view');
     }
     public function insulinProductView(){ 
-        return view('frontend.product.insulin-product-view',);
+        return view('frontend.product.insulin-product-view');
     }
     public function disposableNeedleProductView(){ 
-        return view('frontend.product.disposableNeedle-product-view',);
+        return view('frontend.product.disposableNeedle-product-view');
     }
     public function scalpveinProductView(){ 
-        return view('frontend.product.scalpvein-product-view',);
+        return view('frontend.product.scalpvein-product-view');
     }
     public function infusionProductView(){ 
-        return view('frontend.product.infusion-product-view',);
+        return view('frontend.product.infusion-product-view');
+    }
+    public function cannulaProductView(){ 
+        return view('frontend.product.cannula-product-view');
+    }
+    public function transfusionProductView(){ 
+        return view('frontend.product.transfusion-product-view');
     }
 
-    public function cannulaProductView(){ 
-        return view('frontend.product.cannula-product-view',);
+    public function bandageProductView(){ 
+        return view('frontend.product.bandage-product-view');
     }
 
 

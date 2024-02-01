@@ -76,7 +76,7 @@ ul li {
                                 <span>
                                     <a title="Homepage" href="#">Home</a>
                                 </span>
-                                <span>I.V. Cannula</span>
+                                <span>JMI Blood Transfusion Set</span>
                             </div>
                         </div>
                     </div>
@@ -98,18 +98,13 @@ ul li {
 <article class="post ttm-blog-classic clearfix">
     <div class="ttm-post-entry-header">
         <header class="entry-header">
-            <h2 class="entry-title"><a href="#">iv Cannula</a></h2>
+            <h2 class="entry-title"><a href="#">JMI Blood Transfusion Set</a></h2>
         </header>
     </div>
     <!-- post-featured-wrapper -->
     <div class="ttm-post-featured-wrapper ttm-featured-wrapper">
             <div class="ttm-post-featured">
-                    <img class="img-fluid" src="{{ asset('frontend/assets/images/portfolio/ivcannula/Attachment-27.a (IV Cannula) (1).png')}}" alt="">
-                    <p class="product-name">iv Cannula</p>
-                    <img class="img-fluid" src="{{ asset('frontend/assets/images/portfolio/ivcannula/Attachment-27.b (IV Cannula Neonate 24G).png')}}" alt="">
-                    <p class="product-name">iv Cannula</p>
-                    <img class="img-fluid" src="{{ asset('frontend/assets/images/portfolio/ivcannula/Attachment-27.c.png')}}" alt="">
-                    <p class="product-name">iv Cannula</p>
+                    <img class="img-fluid" src="{{ asset('frontend/assets/images/portfolio/Blood Transfusion Set/Attachment-15 (Blood Transfusion Set).png')}}" alt="">
             </div>
     </div><!-- post-featured-wrapper end -->
     <!-- ttm-blog-classic-content -->
@@ -122,22 +117,14 @@ ul li {
                     <div class="specifications">
                         <h3>Features</h3>
                         <ul>
-                            <li>Non-toxic , Pyrogen free & sterilized by EO gas</li>
-                            <li>For single use</li>
-                            <li>FEP Radio Opaque Catheter</li>
-                            <li>Kink resistant and specially tapered Catheter for easy venipuncture with minimum trauma</li>
-                            <li>Injection port with one-way valve with flange attached to the catheter/shaft</li>
-                            <li>Color coding for each gauge as per International standards
-                            <li>Angled and grooved wings</li>
-                            <li>With Luer lock plug</li>
-                        </ul>
-
-                        <p style="color: #F89C0E;">Size : 18G, 20G, 22G, 24G, 24G (Neonate) & 26G (Neonate)</p>
-
-                        <p style="text-decoration: underline; color:#00438A">
-                        <a href="{{asset('/frontend/assets/attachments/IFU-IVC.pdf')}}" target="_blank">lnstruction for Use (lFU) of lV Cannula</a>
-                        </p>
-
+                            <li>Flexible tubing</li>
+                            <li>High flow spike design for blood derivatives
+                            With Air-vent</li>
+                            <li>200μm in-line filter</li>
+                            <li>Secured luer lock connector</li>
+                            <li>Sterile, non-toxic, pyrogen free</li>
+                            <li>All components are made by medical grade raw materials</li>
+                        </ul>                   
                     </div>
                     <!-- Div for features -->
                     <!-- <div class="features">
@@ -154,28 +141,10 @@ ul li {
     </div><!-- ttm-blog-classic-content end -->
 </article>
 <!-- post end -->
-
-
                        
-                    </div>
+        </div>
                     <div class="col-lg-3 widget-area sidebar-right">
 
-                    <aside class="widget widget-recent-post with-title">
-                            <h3 class="widget-title">Attachments</h3>
-                            <ul class="widget-post ttm-recent-post-list">
-                                <li>
-                                    <a href="#" target="_blank">
-                                        <img class="img-fluid" src="{{asset('/frontend/assets/images/pdf.png')}}" alt="post-img">
-                                    </a>
-                                    <span class="post-date">Literature</span>
-                                    <a href="{{asset('/frontend/assets/attachments/IV_Cannula.pdf')}}" target="_blank">
-                                        <i class="fa fa-file-pdf-o"></i> Download
-                                    </a>
-                                </li>
-                            </ul>
-                        </aside>
-
-                        
                         <aside class="widget widget-Categories with-title">
                             <h3 class="widget-title">Explore Products </h3>
                             <ul>
