@@ -50,8 +50,13 @@ Route::get('/leg_bag', [MenuController::class, 'legProductView'])->name('leg_bag
 Route::get('/Nelatob_Catheter', [MenuController::class, 'NelatobProductView'])->name('Nelatob_Catheter');
 Route::get('/JMI-Disposable-Stomach-Tube', [MenuController::class, 'StomachProductView'])->name('JMI-Disposable-Stomach-Tube');
 Route::get('/Umbilical_Cord_Clamp', [MenuController::class, 'UmbilicalProductView'])->name('Umbilical_Cord_Clamp');
-
 Route::get('/wound_dt', [MenuController::class, 'WoundProductView'])->name('wound_dt');
+Route::get('/feeding_tube', [MenuController::class, 'FeedProductView'])->name('feeding_tube');
+Route::get('/JMI-Oral-Dispenser', [MenuController::class, 'DispenserProductView'])->name('JMI-Oral-Dispenser');
+Route::get('/suction_catheter', [MenuController::class, 'SuctionProductView'])->name('suction_catheter');
+Route::get('/3-Way-Stopcock', [MenuController::class, 'StopcockProductView'])->name('3-Way-Stopcock');
+
+Route::get('/blood_Lancet', [MenuController::class, 'LancetProductView'])->name('blood_Lancet');
 
 
 

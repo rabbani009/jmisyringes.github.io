@@ -151,27 +151,27 @@
             </a>
         </li>
         <li class="dropdown">
-            <a href="#">
+            <a href="{{url('/feeding_tube')}}">
                 <span>Feeding Tube</span>
             </a>
         </li>
         <li class="dropdown">
-            <a href="#">
+            <a href="{{url('/JMI-Oral-Dispenser')}}">
                 <span>JMI Oral Dispenser</span>
             </a>
         </li>
         <li class="dropdown">
-            <a href="#">
+            <a href="{{url('/suction_catheter')}}">
                 <span>Suction Catheter</span>
             </a>
         </li>
         <li class="dropdown">
-            <a href="#">
+            <a href="{{url('/3-Way-Stopcock')}}">
                 <span>3-Way Stopcock</span>
             </a>
         </li>
         <li class="dropdown">
-            <a href="#">
+            <a href="{{url('/blood_Lancet')}}">
                 <span>JMI Blood Lancet</span>
             </a>
         </li>

@@ -111,9 +111,24 @@ class MenuController extends Controller
     public function UmbilicalProductView(){ 
         return view('frontend.product.Umbilical-product-view');
     }
-
     public function WoundProductView(){ 
         return view('frontend.product.Wound-product-view');
+    }
+    public function FeedProductView(){ 
+        return view('frontend.product.feed-product-view');
+    }
+    public function DispenserProductView(){ 
+        return view('frontend.product.dispenser-product-view');
+    }
+    public function SuctionProductView(){ 
+        return view('frontend.product.suction-product-view');
+    }
+    public function StopcockProductView(){ 
+        return view('frontend.product.stopcock-product-view');
+    }
+
+    public function LancetProductView(){ 
+        return view('frontend.product.lancet-product-view');
     }
 
 
