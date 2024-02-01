@@ -60,11 +60,10 @@ class MenuController extends Controller
     public function getAward(){ 
 
         $categories = Category::with('subcategories.subsubcategories')->get();
-
-
         return view('frontend.about.award', compact('categories'));
-
     }
+
+
     public function AdProductView(){ 
         return view('frontend.product.adproduct-view');
     }
@@ -132,7 +131,6 @@ class MenuController extends Controller
     public function SafetyProductView(){ 
         return view('frontend.product.safety-product-view');
     }
-
     public function CopperProductView(){ 
         return view('frontend.product.copper-product-view');
     }

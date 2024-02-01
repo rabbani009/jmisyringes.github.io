@@ -537,6 +537,24 @@ ul li {
                        
                     </div>
                     <div class="col-lg-3 widget-area sidebar-right">
+
+                    
+                    <aside class="widget widget-recent-post with-title">
+                            <h3 class="widget-title">Attachments</h3>
+                            <ul class="widget-post ttm-recent-post-list">
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <img class="img-fluid" src="{{asset('/frontend/assets/images/pdf.png')}}" alt="post-img">
+                                    </a>
+                                    <span class="post-date">lnstruction for Use (lFU) of Auto-Disable (AD) Hypodermic Syringe</span>
+                                    <a href="{{asset('/frontend/assets/attachments/IFU-AD.pdf')}}" target="_blank">
+                                        <i class="fa fa-file-pdf-o" ></i> Download
+                                    </a>
+                                </li>
+                            </ul>
+                        </aside>
+
+
                         <aside class="widget widget-Categories with-title">
                             <h3 class="widget-title">Explore Products </h3>
                             <ul>
