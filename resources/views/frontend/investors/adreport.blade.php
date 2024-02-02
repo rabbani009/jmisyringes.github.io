@@ -33,18 +33,12 @@
         padding:12px;
     }
 
-    /* Style for view button */
-    .view-button {
-        background-color: #E39939;
-        color: #fff;
-        border: none;
-        padding: 5px 15px;
-        border-radius: 4px;
-        text-decoration: none;
-    }
-
-    .view-button:hover {
-        background-color: #006B85;
+      /* Media query for small devices */
+      @media (max-width: 768px) {
+        .heading {
+            font-size: 15px; /* Adjust font size for smaller devices */
+            padding: 8px; /* Adjust padding for smaller devices */
+        }
     }
 </style>
 
@@ -191,6 +185,87 @@
                 <div class="col-md-2">
                     <div class="report-item">
                         <a href="{{ asset('frontend\assets\investors\AnnualAuditors Reports\Audit Reports\pdf') }}" target="_blank">
+                            <img src="{{ asset('frontend\assets\images\pdfLarge2.png') }}" alt="PDF Image" class="pdf-image">
+                        </a>
+                        <div class="report-title">Report</div>
+                    </div>
+                </div> -->
+            
+                <!-- Add more report items as needed -->
+            </div>
+
+            <div class="col-12">
+                    <h5 class="text-center heading">Click to get Annual Information</h5>
+                </div>
+
+            <div class="row">
+                <!-- Report items -->
+                
+                <div class="col-md-2">
+                    <div class="report-item">
+                        <a href="{{ asset('frontend\assets\investors\AnnualAuditors Reports\Annual Reports\Annual Report 2022 - 2023.pdf') }}" target="_blank">
+                            <img src="{{ asset('frontend\assets\images\pdfLarge2.png') }}" alt="PDF Image" class="pdf-image">
+                        </a>
+                        <div class="report-title">Annual Report 2022 - 2023</div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="report-item">
+                        <a href="{{ asset('frontend\assets\investors\AnnualAuditors Reports\Annual Reports\Annual Report 2021 - 2022.pdf') }}" target="_blank">
+                            <img src="{{ asset('frontend\assets\images\pdfLarge2.png') }}" alt="PDF Image" class="pdf-image">
+                        </a>
+                        <div class="report-title">Annual Report 2021 - 2022</div>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="report-item">
+                        <a href="{{ asset('frontend\assets\investors\AnnualAuditors Reports\Annual Reports\Annual Report 2020 - 2021.pdf') }}" target="_blank">
+                            <img src="{{ asset('frontend\assets\images\pdfLarge2.png') }}" alt="PDF Image" class="pdf-image">
+                        </a>
+                        <div class="report-title">Annual Report 2020 - 2021</div>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="report-item">
+                        <a href="{{ asset('frontend\assets\investors\AnnualAuditors Reports\Annual Reports\Annual Report 2019 - 2020.pdf') }}" target="_blank">
+                            <img src="{{ asset('frontend\assets\images\pdfLarge2.png') }}" alt="PDF Image" class="pdf-image">
+                        </a>
+                        <div class="report-title">Annual Report 2019 - 2020</div>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="report-item">
+                        <a href="{{ asset('frontend\assets\investors\AnnualAuditors Reports\Annual Reports\Annual Report 2018 - 2019.pdf') }}" target="_blank">
+                            <img src="{{ asset('frontend\assets\images\pdfLarge2.png') }}" alt="PDF Image" class="pdf-image">
+                        </a>
+                        <div class="report-title">Annual Report 2018 - 2019</div>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="report-item">
+                        <a href="{{ asset('frontend\assets\investors\AnnualAuditors Reports\Annual Reports\Annual Report 2017 - 2018.pdf') }}" target="_blank">
+                            <img src="{{ asset('frontend\assets\images\pdfLarge2.png') }}" alt="PDF Image" class="pdf-image">
+                        </a>
+                        <div class="report-title">Annual Report 2017 - 2018</div>
+                    </div>
+                </div>
+
+                <!-- <div class="col-md-2">
+                    <div class="report-item">
+                        <a href="{{ asset('frontend\assets\investors\AnnualAuditors Reports\Annual Reports\pdf') }}" target="_blank">
+                            <img src="{{ asset('frontend\assets\images\pdfLarge2.png') }}" alt="PDF Image" class="pdf-image">
+                        </a>
+                        <div class="report-title">Report</div>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="report-item">
+                        <a href="{{ asset('frontend\assets\investors\AnnualAuditors Reports\Annual Reports\pdf') }}" target="_blank">
                             <img src="{{ asset('frontend\assets\images\pdfLarge2.png') }}" alt="PDF Image" class="pdf-image">
                         </a>
                         <div class="report-title">Report</div>
