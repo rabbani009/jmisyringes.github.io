@@ -12,6 +12,10 @@ class InvestorsController extends Controller
     public function PSIView(){ 
         return view('frontend.investors.psi');
     }
+
+    public function ADView(){ 
+        return view('frontend.investors.adreport');
+    }
     
     
     

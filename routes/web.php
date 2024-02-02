@@ -74,7 +74,7 @@ Route::get('/award', [MenuController::class, 'getAward'])->name('award');
 Route::get('/profile', [MenuController::class, 'getProfile'])->name('profile');
 
 Route::get('/psi', [InvestorsController::class, 'PSIView'])->name('psi');
-
+Route::get('/adreport', [InvestorsController::class, 'ADView'])->name('adreport');
 
 
 //Operational Excelence
