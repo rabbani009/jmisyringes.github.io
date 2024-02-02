@@ -16,6 +16,10 @@ class InvestorsController extends Controller
     public function ADView(){ 
         return view('frontend.investors.adreport');
     }
+
+    public function UNAView(){ 
+        return view('frontend.investors.unareport');
+    }
     
     
     

@@ -76,6 +76,7 @@ Route::get('/profile', [MenuController::class, 'getProfile'])->name('profile');
 Route::get('/psi', [InvestorsController::class, 'PSIView'])->name('psi');
 Route::get('/adreport', [InvestorsController::class, 'ADView'])->name('adreport');
 
+Route::get('/unauditreport', [InvestorsController::class, 'UNAView'])->name('unauditreport');
 
 //Operational Excelence
 
