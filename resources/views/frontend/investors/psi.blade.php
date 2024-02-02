@@ -1,6 +1,6 @@
 @extends('frontend.master')
 
-@section('title') Certification| Message @endsection
+@section('title') PSI @endsection
 
 <style>
     .border-responsive {

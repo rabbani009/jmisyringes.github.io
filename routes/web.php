@@ -77,6 +77,9 @@ Route::get('/psi', [InvestorsController::class, 'PSIView'])->name('psi');
 Route::get('/adreport', [InvestorsController::class, 'ADView'])->name('adreport');
 
 Route::get('/unauditreport', [InvestorsController::class, 'UNAView'])->name('unauditreport');
+Route::get('/notice', [InvestorsController::class, 'NoticeView'])->name('notice');
+
+
 
 //Operational Excelence
 

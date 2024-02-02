@@ -20,6 +20,10 @@ class InvestorsController extends Controller
     public function UNAView(){ 
         return view('frontend.investors.unareport');
     }
+
+    public function NoticeView(){ 
+        return view('frontend.investors.notice');
+    }
     
     
     

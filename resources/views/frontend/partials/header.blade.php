@@ -45,7 +45,7 @@
                     <li class="dropdown"><a href="#">Nature of Business of JSMD</a></li>
                     <li class="dropdown"><a href="#">Shareholding Composition</a></li>
                     <li class="dropdown"><a href="#">Info. Of Investor Relation Department</a></li>
-                    <li class="dropdown"><a href="#">Notice & General Information</a></li>
+                    <li class="dropdown"><a href="{{url('notice')}}">Notice & General Information</a></li>
                     <li class="dropdown"><a href="#">Credit Rating Reports</a></li>
                     <li class="dropdown"><a href="#">Corporate Governance</a></li>
                     <li class="dropdown"><a href="#">Appointment of MD, CEO, CFO</a></li>
