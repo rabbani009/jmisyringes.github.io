@@ -1,6 +1,6 @@
 @extends('frontend.master')
 
-@section('title') Certification| Message @endsection
+@section('title') Major Highlights | Message @endsection
 
 @section('content')
   <!-- page-title -->
@@ -12,9 +12,9 @@
                             
                             <div class="breadcrumb-wrapper">
                                 <span>
-                                    <a title="Homepage" href="index.html">Home</a>
+                                    <a title="Homepage" href="#">Home</a>
                                 </span>
-                                <span>Founder Message</span>
+                                <span>Major Highlights</span>
                             </div>
                         </div>
                     </div>
@@ -34,13 +34,18 @@
                                 <div class="ttm-team-member-content mt-40">
                                     <div class="section-title">
                                         <div class="title-header">
-                                            <h2 class="title">certifications</h2>
+                                            <h2 class="title">Certifications</h2>
                                         </div>
                                     </div>
-                                    <p>JMI Group's journey has been marked by a commitment to excellence and innovation in the healthcare sector. It began as a Joint Venture Enterprise with South Korea, forging international partnerships to bring cutting-edge technology and expertise to Bangladesh. In collaboration with Star Syringe Ltd. in the UK, JMI Group became a pioneer manufacturer of Auto Disable (AD) Syringes in Bangladesh, setting a high standard for medical device production in the country.</p>
-                                    <p>Over the years, JMI Group has expanded its capabilities and is now an exclusive manufacturer of versatile forms of medical devices in Bangladesh. The company has earned prestigious certifications, including EN ISO 13485:2016, ISO 9001:2015, WHO PQS, and GMP, demonstrating its commitment to quality and safety.
-
-As a member of the International Association of Safe Injection Technology (IASIT) in Geneva, Switzerland, JMI Group remains at the forefront of global healthcare advancements. Its topmost priority has always been customer satisfaction, achieved through a relentless pursuit of quality and affordability. JMI Group's remarkable journey exemplifies its dedication to improving healthcare standards in Bangladesh and beyond.</p>
+                                    <ul>
+                                        <li>Joint Venture Enterprise with South Korea</li>
+                                        <li>Technical Collaboration with Star Syringe Ltd., UK.</li>
+                                        <li>Pioneer Manufacturer of Auto Disable (AD) Syringe in Bangladesh</li>
+                                        <li>Exclusive Manufacturer of versatile forms of Medical Devices in Bangladesh</li>
+                                        <li>Accredited EN ISO 13485:2016, ISO 9001:2015, WHO PQS & GMP Certification</li>
+                                        <li>Member of International Association of Safe Injection Technology (IASIT), Geneva, Switzerland</li>
+                                        <li>Topmost priority toward customer satisfaction from quality perspective and affordability</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -52,9 +57,7 @@ As a member of the International Association of Safe Injection Technology (IASIT
                                 <div class="featured-thumbnail">
                                     <img class="img-fluid" src="{{ asset('frontend/assets/images/certificate/01-certificate-1.jpg')}}" alt="image">
                                 </div> 
-                                <div class="featured-team-data">
-                                    <h5>Registration Certificate</h5>
-                                </div>
+                                
                             </div><!-- featured-team-item end--> 
                         </div>
 
@@ -64,9 +67,7 @@ As a member of the International Association of Safe Injection Technology (IASIT
                                 <div class="featured-thumbnail">
                                     <img class="img-fluid" src="{{ asset('frontend/assets/images/certificate/01-certificate-2.jpg')}}" alt="image">
                                 </div> 
-                                <div class="featured-team-data">
-                                    <h5>Registration Certificate</h5>
-                                </div>
+                                
                             </div><!-- featured-team-item end--> 
                         </div>
                         
@@ -79,9 +80,7 @@ As a member of the International Association of Safe Injection Technology (IASIT
                                 <div class="featured-thumbnail">
                                     <img class="img-fluid" src="{{ asset('frontend/assets/images/certificate/02-certificate-1.jpg')}}" alt="image">
                                 </div> 
-                                <div class="featured-team-data">
-                                    <h5>Registration Certificate</h5>
-                                </div>
+                                
                             </div><!-- featured-team-item end--> 
                         </div>
 
@@ -91,9 +90,7 @@ As a member of the International Association of Safe Injection Technology (IASIT
                                 <div class="featured-thumbnail">
                                     <img class="img-fluid" src="{{ asset('frontend/assets/images/certificate/02-certificate-2.jpg')}}" alt="image">
                                 </div> 
-                                <div class="featured-team-data">
-                                    <h5>Registration Certificate</h5>
-                                </div>
+                                
                             </div><!-- featured-team-item end--> 
                         </div>
                         
@@ -106,9 +103,7 @@ As a member of the International Association of Safe Injection Technology (IASIT
                                 <div class="featured-thumbnail">
                                     <img class="img-fluid" src="{{ asset('frontend/assets/images/certificate/03-certificate-1.jpg')}}" alt="image">
                                 </div> 
-                                <div class="featured-team-data">
-                                    <h5>QA Certificate</h5>
-                                </div>
+                                
                             </div><!-- featured-team-item end--> 
                         </div>
 
@@ -118,11 +113,111 @@ As a member of the International Association of Safe Injection Technology (IASIT
                                 <div class="featured-thumbnail">
                                     <img class="img-fluid" src="{{ asset('frontend/assets/images/certificate/03-certificate-2.jpg')}}" alt="image">
                                 </div> 
-                                <div class="featured-team-data">
-                                    <h5>QA Certificate</h5>
-                                </div>
+                                
                             </div><!-- featured-team-item end--> 
                         </div>
+
+                        
+                        <div class="col-lg-6 col-md-6">
+                            <!-- featured-team-item -->
+                            <div class="featured-item featured-team-item ttm-item-view-leftimage"> 
+                                <div class="featured-thumbnail">
+                                    <img class="img-fluid" src="{{ asset('frontend/assets/images/certificate/03-certificate-3.jpg')}}" alt="image">
+                                </div> 
+                                
+                            </div><!-- featured-team-item end--> 
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <!-- featured-team-item -->
+                            <div class="featured-item featured-team-item ttm-item-view-leftimage"> 
+                                <div class="featured-thumbnail">
+                                    <img class="img-fluid" src="{{ asset('frontend/assets/images/certificate/03-certificate-4.jpg')}}" alt="image">
+                                </div> 
+                                
+                            </div><!-- featured-team-item end--> 
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <!-- featured-team-item -->
+                            <div class="featured-item featured-team-item ttm-item-view-leftimage"> 
+                                <div class="featured-thumbnail">
+                                    <img class="img-fluid" src="{{ asset('frontend/assets/images/certificate/certificate-07.jpg')}}" alt="image">
+                                </div> 
+                                
+                            </div><!-- featured-team-item end--> 
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <!-- featured-team-item -->
+                            <div class="featured-item featured-team-item ttm-item-view-leftimage"> 
+                                <div class="featured-thumbnail">
+                                    <img class="img-fluid" src="{{ asset('frontend/assets/images/certificate/certificate-08.jpg')}}" alt="image">
+                                </div> 
+                                
+                            </div><!-- featured-team-item end--> 
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <!-- featured-team-item -->
+                            <div class="featured-item featured-team-item ttm-item-view-leftimage"> 
+                                <div class="featured-thumbnail">
+                                    <img class="img-fluid" src="{{ asset('frontend/assets/images/certificate/certificate-08_01.jpg')}}" alt="image">
+                                </div> 
+                                
+                            </div><!-- featured-team-item end--> 
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <!-- featured-team-item -->
+                            <div class="featured-item featured-team-item ttm-item-view-leftimage"> 
+                                <div class="featured-thumbnail">
+                                    <img class="img-fluid" src="{{ asset('frontend/assets/images/certificate/certificate-08_02.jpg')}}" alt="image">
+                                </div> 
+                                
+                            </div><!-- featured-team-item end--> 
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <!-- featured-team-item -->
+                            <div class="featured-item featured-team-item ttm-item-view-leftimage"> 
+                                <div class="featured-thumbnail">
+                                    <img class="img-fluid" src="{{ asset('frontend/assets/images/certificate/certificate-08_03.jpg')}}" alt="image">
+                                </div> 
+                                
+                            </div><!-- featured-team-item end--> 
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <!-- featured-team-item -->
+                            <div class="featured-item featured-team-item ttm-item-view-leftimage"> 
+                                <div class="featured-thumbnail">
+                                    <img class="img-fluid" src="{{ asset('frontend/assets/images/certificate/certificate-08_04.jpg')}}" alt="image">
+                                </div> 
+                                
+                            </div><!-- featured-team-item end--> 
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <!-- featured-team-item -->
+                            <div class="featured-item featured-team-item ttm-item-view-leftimage"> 
+                                <div class="featured-thumbnail">
+                                    <img class="img-fluid" src="{{ asset('frontend/assets/images/certificate/certificate-08_05.jpg')}}" alt="image">
+                                </div> 
+                                
+                            </div><!-- featured-team-item end--> 
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <!-- featured-team-item -->
+                            <div class="featured-item featured-team-item ttm-item-view-leftimage"> 
+                                <div class="featured-thumbnail">
+                                    <img class="img-fluid" src="{{ asset('frontend/assets/images/certificate/certificate-08_06.jpg')}}" alt="image">
+                                </div> 
+                                
+                            </div><!-- featured-team-item end--> 
+                        </div>
+
                         
                     </div>
                 </div>

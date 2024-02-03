@@ -15,21 +15,24 @@
             <ul>
        
               <li><a href="{{url('mission')}}">Our Mission & Vision</a></li>
-              <li><a href="{{url('message')}}">Message From Founder's</a></li>
-              <li class="dropdown"><a href="#"><span>Our Recognition's</span> <i class="bi bi-chevron-right"></i></a>
+              <!-- <li><a href="{{url('message')}}">Message From Founder's</a></li> -->
+              <li><a href="">Quality Policy</a></li>
+              <li><a href="">Export</a></li>
+              <!-- <li class="dropdown"><a href="#"><span>Quality Policy</span> <i class="bi bi-chevron-right"></i></a>
                 <ul> 
                   <li><a href="{{url('certification')}}">Certifications</a></li>    
                   <li><a href="{{url('award')}}">Award</a></li>
                      
                 </ul>
-              </li>
-              <li><a href="#">Partners & Affiliations</a></li>
+             
+              </li> -->
+              <!-- <li><a href="#">Partners & Affiliations</a></li>
               <li class="dropdown"><a href="#"><span>Media</span><i class="bi bi-chevron-right"></i></a>
                 <ul>   
                   <li><a href="#">Media</a></li>
                   <li><a href="#">Gallery</a></li>       
                 </ul>
-              </li>
+              </li> -->
             </ul>
           </li>
           <li class="dropdown"><a href="#"><span>Investors Corner</span> <i class="bi bi-chevron-down"></i></a>
@@ -59,6 +62,7 @@
            
             </ul>
           </li>
+          <li><a href="{{url('certificate')}}">Major Highlight</a></li>
           <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
 <ul class="menu">
  
@@ -180,13 +184,13 @@
 </ul>
 
             </li>
-          <li><a class="nav-link scrollto " href="#">Export</a></li>
-          <li class="dropdown"><a href="#"><span>Operational Excellence</span> <i class="bi bi-chevron-down"></i></a>
+          <!-- <li><a class="nav-link scrollto " href="#">Export</a></li> -->
+          <li class="dropdown"><a href="#"><span>Plant</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
                     <li><a href="{{url('quality')}}">Quality Policy</a></li>
-                    <li><a href="#">Manufacturing Facilities</a></li>
-                    <li><a href="#">R&D</a></li>
-                    <li><a href="#">Operational Management Team</a></li>
+                    <li><a href="#">Factory</a></li>
+                    <li><a href="#">Production</a></li>
+                    <li><a href="#">Engineering</a></li>
                  
                 </ul>
             </li>

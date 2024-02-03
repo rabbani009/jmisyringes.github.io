@@ -93,10 +93,10 @@ Route::get('/duties', [InvestorsController::class, 'DutiesView'])->name('duties'
 Route::get('/link', [InvestorsController::class, 'LinkView'])->name('link');
 Route::get('/devined-policy', [InvestorsController::class, 'PolicyView'])->name('devined-policy');
 Route::get('/code-of-Conduct', [InvestorsController::class, 'CodeView'])->name('code-of-Conduct');
-
-
 Route::get('/directors-Report', [InvestorsController::class, 'DRView'])->name('directors-Report');
 
+
+Route::get('/certificate', [MenuController::class, 'getCertification'])->name('certificate');
 
 //Operational Excelence
 

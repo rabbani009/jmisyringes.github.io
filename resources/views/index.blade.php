@@ -2,6 +2,35 @@
 
 @section('title') Home @endsection
 
+<style>
+    /* Add your custom styles here */
+    .featured-thumbnail {
+        border: 1px solid #ccc; /* Add border around images */
+        padding: 5px; /* Add padding for better spacing */
+        margin-bottom: 20px; /* Add margin-bottom for better separation between images */
+    }
+
+    .featured-thumbnail img {
+        max-width: 100%; /* Ensure images don't exceed their container's width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    /* Custom styles for slider title and subtitle */
+    .tp-caption.tp-resizeme {
+        margin-top: 70px;
+        color: #fff !important; /* Set text color to white */
+        text-align: center; /* Center-align text */
+    }
+
+    @media (max-width: 767px) {
+    .tp-caption.tp-resizeme {
+        font-size: 15px !important; /* Reduce font size for smaller screens */
+        margin-top: 70px !important; /* Adjust margin-top to reduce the gap */
+        line-height: 0.2; /* Adjust line-height as needed */
+    }
+}
+</style>
+
 @section('content')
 
 <div id="rev_slider_5_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container slide-overlay" data-alias="classic4export" data-source="gallery">
@@ -21,7 +50,7 @@
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
-                <div class="tp-caption tp-resizeme" id="slide-6-layer-1" data-x="['left','left','left','left']" data-hoffset="['50','40','30','20']" 
+                <div style="color:#fff;" class="tp-caption tp-resizeme" id="slide-6-layer-1" data-x="['left','left','left','left']" data-hoffset="['50','40','30','20']" 
                     data-y="['middle','middle','middle','middle']" data-voffset="['-126','-126','-86','-60']" 
 
                     data-fontsize="['60','60','60','38']"
@@ -103,7 +132,7 @@
                 </div>
 
                 <!-- LAYER NR. 4 -->
-                <a class="tp-caption ttm-btn ttm-btn-shape-rounded ttm-btn-style-fill ttm-btn-color-skincolor" href="#" target="_self" id="slide-6-layer-4" data-x="['left','left','left','left']" data-hoffset="['50','40','30','20']" data-y="['bottom','bottom','bottom','middle']" data-voffset="['179','179','127','57']" 
+                <!-- <a class="tp-caption ttm-btn ttm-btn-shape-rounded ttm-btn-style-fill ttm-btn-color-skincolor" href="#" target="_self" id="slide-6-layer-4" data-x="['left','left','left','left']" data-hoffset="['50','40','30','20']" data-y="['bottom','bottom','bottom','middle']" data-voffset="['179','179','127','57']" 
 
                     data-fontsize="['15','15','15','15']"
                     data-lineheight="['20','20','15','15']"
@@ -126,11 +155,11 @@
                     data-paddingbottom="[13,13,10,10]"
                     data-paddingleft="[35,35,28,28]"
                     data-type="button"
-                    data-responsive_offset="on" >View All Product
-                </a>
+                    data-responsive_offset="on" >Explore Us
+                </a> -->
 
                 <!-- LAYER NR. 5 -->
-                <a class="tp-caption tp-resizeme ttm-icon ttm-icon_element-border ttm-icon_element-color-darkgrey ttm-icon_element-style-rounded ttm_prettyphoto" href="{{ $slider->video_link }}" target="_self" id="slide-6-layer-5" data-x="['left','left','left','left']" data-hoffset="['278','278','-550','-550']" data-y="['bottom','bottom','bottom','middle']" data-voffset="['183','183','98','86']"
+                <!-- <a class="tp-caption tp-resizeme ttm-icon ttm-icon_element-border ttm-icon_element-color-darkgrey ttm-icon_element-style-rounded ttm_prettyphoto" href="{{ $slider->video_link }}" target="_self" id="slide-6-layer-5" data-x="['left','left','left','left']" data-hoffset="['278','278','-550','-550']" data-y="['bottom','bottom','bottom','middle']" data-voffset="['183','183','98','86']"
 
                     data-fontsize="['15','15','15','15']"
                     data-lineheight="['46','46','38','38']"
@@ -150,11 +179,11 @@
                     data-paddingleft="[0,0,0,0]">
 
                     <i class="fa fa-play pl-1"></i>
-                </a>
+                </a> -->
 
 
                 <!-- LAYER NR. 6 -->
-                <a class="tp-caption tp-resizeme ttm_prettyphoto" href="{{ $slider->video_link }}" target="_self" id="slide-6-layer-6" data-x="['left','left','left','left']" data-hoffset="['345','345','-550','-552']" data-y="['bottom','bottom','bottom','middle']" data-voffset="['199','199','112','99']"
+                <!-- <a class="tp-caption tp-resizeme ttm_prettyphoto" href="{{ $slider->video_link }}" target="_self" id="slide-6-layer-6" data-x="['left','left','left','left']" data-hoffset="['345','345','-550','-552']" data-y="['bottom','bottom','bottom','middle']" data-voffset="['199','199','112','99']"
 
                     data-fontsize="['15','15','14','14']"
                     data-lineheight="['14','14','14','14']"
@@ -172,7 +201,7 @@
                     data-paddingright="[0,0,0,0]"
                     data-paddingbottom="[0,0,0,0]"
                     data-paddingleft="[0,0,0,0]">How We Work
-                </a>
+                </a> -->
                 
             </li>
 
@@ -342,201 +371,7 @@
             </div>
         </section>
         
-<!--services-section-->
 
-<!--cta-section-->
-<section class="ttm-row cta-section ttm-bgcolor-skincolor bg-img8 ttm-bg ttm-bgimage-yes clearfix">
-    <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
-    <div class="container"><!--container-->
-        <div class="row"><!--row-->
-            <div class="col-lg-8 m-auto">
-                <div class="mt-15 row-title res-991-mt-0 text-center ttm-textcolor-white">
-                    <div class="ttm-play-icon-btn mb-35">
-                        <div class="ttm-play-icon-animation">
-                          
-                        </div>
-                    </div>
-                    <!-- section title -->
-                    <div class="section-title clearfix">
-                        <div class="title-header">
-                            <h5 class="title">Want to learn more about our wide array of Products?
-                             Simply download our Product Catalogue PDFs from below.</h5>
-                        </div>
-                    </div><!-- section title end -->
-                    <div class="pt-20 pb-80 res-991-pb-0 res-991-pt-10">
-                        <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-border ttm-btn-color-white" href="#">Download Here</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--cta-section-->
-
-
-<!--procedure-section-->
-<section class="ttm-row procedure-section ttm-bgcolor-grey bg-img9 ttm-bg ttm-bgimage-yes z-index_1 mt_100 res-991-mt-0 clearfix">
-    <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
-    <div class="container">
-        <!-- row -->
-        <div class="row">
-            <div class="col-lg-6 col-md-8 col-sm-9 m-auto">
-                <!-- section-title -->
-                <div class="section-title with-sep title-style-center_text">
-                    <div class="title-header">
-                        <h5>Way We Work</h5>
-                        <h2 class="title">Our Working Process</h2>
-                    </div>
-                    <div class="title-desc">We are the team of experts and specialist for particular braches falls into research and diagnosis, ready to serve you at their best.</div>
-                </div><!-- section-title end -->
-            </div>
-        </div><!-- row end -->
-        <div class="row"><!-- row -->
-            <div class="col-md-4">
-                <!-- featured-imagebox -->
-                <div class="featured-icon-box icon-align-top-content text-center style4">
-                    <div class="featured-icon">
-                        <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-color-white ttm-icon_element-size-md ttm-icon_element-style-rounded">
-                            <i class="flaticon-lab-2"></i>
-                            <span class="fea-number">01</span>
-                        </div>
-                    </div>
-                    <div class="featured-content">
-                        <div class="featured-title">
-                            <h5>Data Collection</h5>
-                        </div>
-                        <div class="featured-desc">
-                            <p>For the accurate diagnoses, perfect information is must require</p>
-                        </div>
-                    </div>
-                    <div class="arrow">
-                        <img src=" {{ asset('frontend/assets/images/arrow-1.png')}}" alt=""/>
-                    </div>
-                </div><!-- featured-imagebox end-->
-            </div>
-            <div class="col-md-4">
-                <!-- featured-imagebox -->
-                <div class="featured-icon-box icon-align-top-content text-center style4">
-                    <div class="featured-icon">
-                        <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-color-white ttm-icon_element-size-md ttm-icon_element-style-rounded">
-                            <i class="flaticon-healthcare-and-medical-1"></i>
-                            <span class="fea-number">02</span>
-                        </div>
-                    </div>
-                    <div class="featured-content">
-                        <div class="featured-title">
-                            <h5>Diagnose Process</h5>
-                        </div>
-                        <div class="featured-desc">
-                            <p>The collection goes to the particular department for the tests</p>
-                        </div>
-                    </div>
-                    <div class="arrow flip-arrow">
-                        <img src=" {{ asset('frontend/assets/images/arrow-2.png')}}" alt=""/>
-                    </div>
-                </div><!-- featured-imagebox end-->
-            </div>
-            <div class="col-md-4">
-                <!-- featured-imagebox -->
-                <div class="featured-icon-box icon-align-top-content text-center style4">
-                    <div class="featured-icon">
-                        <div class="ttm-icon ttm-icon_element-fill ttm-icon_element-color-white ttm-icon_element-size-md ttm-icon_element-style-rounded">
-                            <i class="flaticon-laboratory-3"></i>
-                            <span class="fea-number">03</span>
-                        </div>
-                    </div>
-                    <div class="featured-content">
-                        <div class="featured-title">
-                            <h5>Access To Reports</h5>
-                        </div>
-                        <div class="featured-desc">
-                            <p>As a result, that arrive one can access their report online or direct  </p>
-                        </div>
-                    </div>
-                </div><!-- featured-imagebox end-->
-            </div>
-        </div>
-    </div>
-</section>
-<!--procedure-section end-->
-
-
-<!--broken-section-->
-<section class="ttm-row broken-section-3 bg-layer mt_80 res-991-mt-0 clearfix">
-    <div class="container">
-        <!-- row -->
-        <div class="row">
-            <div class="col-lg-6 col-md-12">
-                <div class="col-bg-img-seven ttm-col-bgimage-yes ttm-bg ttm-col-bgcolor-yes ttm-left-span ttm-bgcolor-skincolor z-index-2 spacing-4">
-                    <div class="ttm-col-wrapper-bg-layer ttm-bg-layer">
-                        <div class="ttm-col-wrapper-bg-layer-inner"></div>
-                    </div>
-                    <div class="layer-content">
-                        <div class="section-title">
-                            <div class="title-header">
-                                <h2 class="title">Best Laboratory with the International Standards.</h2>
-                            </div>
-                        </div>
-                        <p>We constantly keep challenging ourselves to deliver the most sincere service to our global clients. Connect with us today to learn more about our products.</p>
-                        <div class="sep_holder_box width-100 mt-35">
-                            <span class="sep_holder"><span class="sep_line"></span></span>
-                        </div>
-                        <!-- slick_slider -->
-                        <div class="ml_35 slick_slider" data-slick='{"slidesToShow": 3, "slidesToScroll": 1, "arrows":false, "autoplay":true, "infinite":true, "responsive": [{"breakpoint":500,"settings":{"slidesToShow": 2}}, {"breakpoint":350,"settings":{"slidesToShow": 1}}]}'>
-                            <div class="client-box">
-                                <div class="ttm-client-logo-tooltip">
-                                    <div class="ttm-client-logo-tooltip-inner">
-                                        <div class="client-thumbnail">
-                                            <img src=" {{ asset('frontend/assets/images/client/dgda-bangladesh-logo-33E9602306-seeklogo.com.png')}}" alt="image" style="height:150px;width:150px;">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="client-box">
-                                <div class="ttm-client-logo-tooltip">
-                                    <div class="ttm-client-logo-tooltip-inner">
-                                        <div class="client-thumbnail">
-                                            <img src=" {{ asset('frontend/assets/images/client/MTIC_LOGO_50th.svg')}}" alt="image" style="height:150px;width:200px;">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="client-box">
-                                <div class="ttm-client-logo-tooltip">
-                                    <div class="ttm-client-logo-tooltip-inner">
-                                        <div class="client-thumbnail">
-                                            <img src=" {{ asset('frontend/assets/images/client/client-09.png')}}" alt="image">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="client-box">
-                                <div class="ttm-client-logo-tooltip">
-                                    <div class="ttm-client-logo-tooltip-inner">
-                                        <div class="client-thumbnail">
-                                            <img src=" {{ asset('frontend/assets/images/client/client-10.png')}}" alt="image">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- ttm-client end -->
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-12">
-                <div class="col-bg-img-eight ttm-col-bgimage-yes ttm-bg ttm-right-span mt-80 res-991-mt-0">
-                    <div class="ttm-col-wrapper-bg-layer ttm-bg-layer">
-                        <div class="ttm-col-wrapper-bg-layer-inner"></div>
-                    </div>
-                    <div class="layer-content">
-                    </div>
-                    <img src=" {{ asset('frontend/assets/images/bg-image/col-bgimage-8.jpg')}}" class="ttm-equal-height-image" alt="bg-image">
-                </div>
-            </div>
-        </div><!-- row end -->
-    </div>
-</section>
-<!--broken-section end-->
 
 @endsection
 
