@@ -61,6 +61,27 @@ class InvestorsController extends Controller
     public function AppointmentView(){ 
         return view('frontend.investors.appointment-view');
     }
+
+    public function DutiesView(){ 
+        return view('frontend.investors.duties-view');
+    }
+
+    public function LinkView(){ 
+        return view('frontend.investors.link-view');
+    }
+
+    public function PolicyView(){ 
+        return view('frontend.investors.devined-policy-view');
+    }
+
+    public function CodeView(){ 
+        return view('frontend.investors.code-view');
+    }
+
+    public function DRView(){ 
+        return view('frontend.investors.directors-report-view');
+    }
+    
     
     
     

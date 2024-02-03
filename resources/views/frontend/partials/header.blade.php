@@ -39,7 +39,7 @@
                     <li class="dropdown"><a href="{{url('psi')}}">Price Sensitive Information</a></li>
                     <li class="dropdown"><a href="{{url('adreport')}}">Annual/Auditor's Reports</a></li>
                     <li class="dropdown"><a href="{{url('unauditreport')}}">Unaudited Reports</a></li>
-                    <li class="dropdown"><a href="#">Director's Report </a></li>
+                    <li class="dropdown"><a href="{{url('directors-Report')}}">Director's Report </a></li>
                     <li class="dropdown"><a href="{{url('directors-profile')}}">Profile Of Directors</a></li>
                     <li class="dropdown"><a href="{{url('/profile')}}">Board of Directors & Top Management</a></li>
                     <li class="dropdown"><a href="{{url('/business-Nature')}}">Nature of Business of JSMD</a></li>
@@ -49,12 +49,12 @@
                     <li class="dropdown"><a href="{{url('credit-rating')}}">Credit Rating Reports</a></li>
                     <li class="dropdown"><a href="{{url('corporate-Governance')}}">Corporate Governance</a></li>
                     <li class="dropdown"><a href="{{ url('appointment')}}">Appointment of MD, CEO, CFO</a></li>
-                    <li class="dropdown"><a href="#">Duties & Responsibilities of Mgmt</a></li>
-                    <li class="dropdown"><a href="#">Link DSE CSE</a></li>
-                    <li class="dropdown"><a href="#">Dividend Policy</a></li>
+                    <li class="dropdown"><a href="{{url('duties')}}">Duties & Responsibilities of Mgmt</a></li>
+                    <li class="dropdown"><a href="{{url('link')}}">Link DSE CSE</a></li>
+                    <li class="dropdown"><a href="{{url('devined-policy')}}">Dividend Policy</a></li>
                     <li class="dropdown"><a href="{{url('dividend-distribution')}}">Dividend Distribution Compliance Report</a></li>
                     <li class="dropdown"><a href="{{url('unpaid-devined')}}">Unpaid Dividend</a></li>
-                    <li class="dropdown"><a href="#">Code of Conduct</a></li>
+                    <li class="dropdown"><a href="{{url('code-of-Conduct')}}">Code of Conduct</a></li>
                
            
             </ul>

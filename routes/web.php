@@ -88,9 +88,15 @@ Route::get('/business-Nature', [InvestorsController::class, 'BusinessView'])->na
 Route::get('/shareholding-Composition', [InvestorsController::class, 'SharedView'])->name('shareholding-Composition');
 Route::get('/Information-of-Investor-Relation-Department', [InvestorsController::class, 'InvestorView'])->name('Information-of-Investor-Relation-Department');
 Route::get('/corporate-Governance', [InvestorsController::class, 'CorporateView'])->name('corporate-Governance');
-
-
 Route::get('/appointment', [InvestorsController::class, 'AppointmentView'])->name('appointment');
+Route::get('/duties', [InvestorsController::class, 'DutiesView'])->name('duties');
+Route::get('/link', [InvestorsController::class, 'LinkView'])->name('link');
+Route::get('/devined-policy', [InvestorsController::class, 'PolicyView'])->name('devined-policy');
+Route::get('/code-of-Conduct', [InvestorsController::class, 'CodeView'])->name('code-of-Conduct');
+
+
+Route::get('/directors-Report', [InvestorsController::class, 'DRView'])->name('directors-Report');
+
 
 //Operational Excelence
 
