@@ -49,6 +49,19 @@ class InvestorsController extends Controller
     public function SharedView(){ 
         return view('frontend.investors.shared');
     }
+
+    public function InvestorView(){ 
+        return view('frontend.investors.investor-relation');
+    }
+
+    public function CorporateView(){ 
+        return view('frontend.investors.corporate-view');
+    }
+
+    public function AppointmentView(){ 
+        return view('frontend.investors.appointment-view');
+    }
+    
     
     
     

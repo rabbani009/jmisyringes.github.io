@@ -85,10 +85,12 @@ Route::get('/dividend-distribution', [InvestorsController::class, 'DevinedView']
 Route::get('/unpaid-devined', [InvestorsController::class, 'UnpaidView'])->name('unpaid-devined');
 
 Route::get('/business-Nature', [InvestorsController::class, 'BusinessView'])->name('business-Nature');
-
 Route::get('/shareholding-Composition', [InvestorsController::class, 'SharedView'])->name('shareholding-Composition');
+Route::get('/Information-of-Investor-Relation-Department', [InvestorsController::class, 'InvestorView'])->name('Information-of-Investor-Relation-Department');
+Route::get('/corporate-Governance', [InvestorsController::class, 'CorporateView'])->name('corporate-Governance');
 
 
+Route::get('/appointment', [InvestorsController::class, 'AppointmentView'])->name('appointment');
 
 //Operational Excelence
 

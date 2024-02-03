@@ -44,11 +44,11 @@
                     <li class="dropdown"><a href="{{url('/profile')}}">Board of Directors & Top Management</a></li>
                     <li class="dropdown"><a href="{{url('/business-Nature')}}">Nature of Business of JSMD</a></li>
                     <li class="dropdown"><a href="{{url('/shareholding-Composition')}}">Shareholding Composition</a></li>
-                    <li class="dropdown"><a href="#">Info. Of Investor Relation Department</a></li>
+                    <li class="dropdown"><a href="{{url('Information-of-Investor-Relation-Department')}}">Info. Of Investor Relation Department</a></li>
                     <li class="dropdown"><a href="{{url('notice')}}">Notice & General Information</a></li>
                     <li class="dropdown"><a href="{{url('credit-rating')}}">Credit Rating Reports</a></li>
-                    <li class="dropdown"><a href="#">Corporate Governance</a></li>
-                    <li class="dropdown"><a href="#">Appointment of MD, CEO, CFO</a></li>
+                    <li class="dropdown"><a href="{{url('corporate-Governance')}}">Corporate Governance</a></li>
+                    <li class="dropdown"><a href="{{ url('appointment')}}">Appointment of MD, CEO, CFO</a></li>
                     <li class="dropdown"><a href="#">Duties & Responsibilities of Mgmt</a></li>
                     <li class="dropdown"><a href="#">Link DSE CSE</a></li>
                     <li class="dropdown"><a href="#">Dividend Policy</a></li>
