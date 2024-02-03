@@ -24,6 +24,18 @@ class InvestorsController extends Controller
     public function NoticeView(){ 
         return view('frontend.investors.notice');
     }
+
+    public function CreditView(){ 
+        return view('frontend.investors.credit');
+    }
+
+    public function DevinedView(){ 
+        return view('frontend.investors.devined-distribution');
+    }
+
+    public function UnpaidView(){ 
+        return view('frontend.investors.unpaid-devined');
+    }
     
     
     

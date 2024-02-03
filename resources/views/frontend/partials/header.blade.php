@@ -46,14 +46,14 @@
                     <li class="dropdown"><a href="#">Shareholding Composition</a></li>
                     <li class="dropdown"><a href="#">Info. Of Investor Relation Department</a></li>
                     <li class="dropdown"><a href="{{url('notice')}}">Notice & General Information</a></li>
-                    <li class="dropdown"><a href="#">Credit Rating Reports</a></li>
+                    <li class="dropdown"><a href="{{url('credit-rating')}}">Credit Rating Reports</a></li>
                     <li class="dropdown"><a href="#">Corporate Governance</a></li>
                     <li class="dropdown"><a href="#">Appointment of MD, CEO, CFO</a></li>
                     <li class="dropdown"><a href="#">Duties & Responsibilities of Mgmt</a></li>
                     <li class="dropdown"><a href="#">Link DSE CSE</a></li>
                     <li class="dropdown"><a href="#">Dividend Policy</a></li>
-                    <li class="dropdown"><a href="#">Dividend Distribution Compliance Report</a></li>
-                    <li class="dropdown"><a href="#">Unpaid Dividend</a></li>
+                    <li class="dropdown"><a href="{{url('dividend-distribution')}}">Dividend Distribution Compliance Report</a></li>
+                    <li class="dropdown"><a href="{{url('unpaid-devined')}}">Unpaid Dividend</a></li>
                     <li class="dropdown"><a href="#">Code of Conduct</a></li>
                
            
