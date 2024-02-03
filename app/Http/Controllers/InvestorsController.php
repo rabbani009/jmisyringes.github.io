@@ -42,6 +42,14 @@ class InvestorsController extends Controller
     }
     
     
+    public function BusinessView(){ 
+        return view('frontend.investors.naturebusiness');
+    }
+
+    public function SharedView(){ 
+        return view('frontend.investors.shared');
+    }
+    
     
     
     

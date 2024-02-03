@@ -84,6 +84,9 @@ Route::get('/credit-rating', [InvestorsController::class, 'CreditView'])->name('
 Route::get('/dividend-distribution', [InvestorsController::class, 'DevinedView'])->name('dividend-distribution');
 Route::get('/unpaid-devined', [InvestorsController::class, 'UnpaidView'])->name('unpaid-devined');
 
+Route::get('/business-Nature', [InvestorsController::class, 'BusinessView'])->name('business-Nature');
+
+Route::get('/shareholding-Composition', [InvestorsController::class, 'SharedView'])->name('shareholding-Composition');
 
 
 

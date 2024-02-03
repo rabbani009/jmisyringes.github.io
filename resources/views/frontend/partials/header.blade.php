@@ -42,8 +42,8 @@
                     <li class="dropdown"><a href="#">Director's Report </a></li>
                     <li class="dropdown"><a href="{{url('directors-profile')}}">Profile Of Directors</a></li>
                     <li class="dropdown"><a href="{{url('/profile')}}">Board of Directors & Top Management</a></li>
-                    <li class="dropdown"><a href="#">Nature of Business of JSMD</a></li>
-                    <li class="dropdown"><a href="#">Shareholding Composition</a></li>
+                    <li class="dropdown"><a href="{{url('/business-Nature')}}">Nature of Business of JSMD</a></li>
+                    <li class="dropdown"><a href="{{url('/shareholding-Composition')}}">Shareholding Composition</a></li>
                     <li class="dropdown"><a href="#">Info. Of Investor Relation Department</a></li>
                     <li class="dropdown"><a href="{{url('notice')}}">Notice & General Information</a></li>
                     <li class="dropdown"><a href="{{url('credit-rating')}}">Credit Rating Reports</a></li>
