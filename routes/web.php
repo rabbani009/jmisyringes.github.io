@@ -98,6 +98,17 @@ Route::get('/directors-Report', [InvestorsController::class, 'DRView'])->name('d
 
 Route::get('/certificate', [MenuController::class, 'getCertification'])->name('certificate');
 
+Route::get('/qpolicy', [MenuController::class, 'qpCertification'])->name('qpolicy');
+Route::get('/production', [MenuController::class, 'production'])->name('production');
+Route::get('/factory', [MenuController::class, 'factory'])->name('factory');
+
+Route::get('/engineering', [MenuController::class, 'engineering'])->name('engineering');
+
+Route::get('/export', [MenuController::class, 'export'])->name('export');
+
+
+
+
 //Operational Excelence
 
 Route::get('/quality', [MenuController::class, 'getQuality'])->name('quality');

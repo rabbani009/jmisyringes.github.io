@@ -16,8 +16,8 @@
        
               <li><a href="{{url('mission')}}">Our Mission & Vision</a></li>
               <!-- <li><a href="{{url('message')}}">Message From Founder's</a></li> -->
-              <li><a href="">Quality Policy</a></li>
-              <li><a href="">Export</a></li>
+              <li><a href="{{url ('qpolicy')}}">Quality Policy</a></li>
+              <li><a href="{{url('export')}}">Export</a></li>
               <!-- <li class="dropdown"><a href="#"><span>Quality Policy</span> <i class="bi bi-chevron-right"></i></a>
                 <ul> 
                   <li><a href="{{url('certification')}}">Certifications</a></li>    
@@ -187,10 +187,10 @@
           <!-- <li><a class="nav-link scrollto " href="#">Export</a></li> -->
           <li class="dropdown"><a href="#"><span>Plant</span> <i class="bi bi-chevron-down"></i></a>
                 <ul>
-                    <li><a href="{{url('quality')}}">Quality Policy</a></li>
-                    <li><a href="#">Factory</a></li>
-                    <li><a href="#">Production</a></li>
-                    <li><a href="#">Engineering</a></li>
+                    <li><a href="{{url('quality')}}">QA/QC</a></li>
+                    <li><a href="{{url('factory')}}">Factory</a></li>
+                    <li><a href="{{url('production')}}">Production</a></li>
+                    <li><a href="{{url('engineering')}}">Engineering</a></li>
                  
                 </ul>
             </li>

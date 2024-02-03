@@ -58,10 +58,36 @@ class MenuController extends Controller
 
     }
     public function getAward(){ 
-
         $categories = Category::with('subcategories.subsubcategories')->get();
         return view('frontend.about.award', compact('categories'));
     }
+
+    public function qpCertification(){ 
+        return view('frontend.about.qpolicy');
+    }
+
+    public function export(){ 
+        return view('frontend.about.export');
+    }
+
+    public function production(){ 
+        return view('frontend.about.production');
+    }
+
+    public function factory(){ 
+        return view('frontend.about.factory');
+    }
+
+    public function engineering(){ 
+        return view('frontend.about.engineering');
+    }
+
+
+
+
+
+
+
 
 
     public function AdProductView(){ 
