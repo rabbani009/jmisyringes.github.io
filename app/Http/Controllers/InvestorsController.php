@@ -36,6 +36,10 @@ class InvestorsController extends Controller
     public function UnpaidView(){ 
         return view('frontend.investors.unpaid-devined');
     }
+
+    public function getDirectorsProfile(){ 
+        return view('frontend.investors.directors-profile');
+    }
     
     
     

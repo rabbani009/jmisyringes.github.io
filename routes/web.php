@@ -73,14 +73,15 @@ Route::get('/award', [MenuController::class, 'getAward'])->name('award');
 
 Route::get('/profile', [MenuController::class, 'getProfile'])->name('profile');
 
+
+Route::get('/directors-profile', [InvestorsController::class, 'getDirectorsProfile'])->name('directors-profile');
+
 Route::get('/psi', [InvestorsController::class, 'PSIView'])->name('psi');
 Route::get('/adreport', [InvestorsController::class, 'ADView'])->name('adreport');
-
 Route::get('/unauditreport', [InvestorsController::class, 'UNAView'])->name('unauditreport');
 Route::get('/notice', [InvestorsController::class, 'NoticeView'])->name('notice');
 Route::get('/credit-rating', [InvestorsController::class, 'CreditView'])->name('credit-rating');
 Route::get('/dividend-distribution', [InvestorsController::class, 'DevinedView'])->name('dividend-distribution');
-
 Route::get('/unpaid-devined', [InvestorsController::class, 'UnpaidView'])->name('unpaid-devined');
 
 
