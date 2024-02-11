@@ -117,10 +117,38 @@
               </div>
             <!-- Add more persons' details in a similar structure -->
             <div class="person-bio">
-                <img src="{{asset("frontend/assets/images/profile/Fuji.jpg")}}" alt="Suriya Akther Rina">
-                <h5>Mr. Katsuhiko Fujii </h5>
-                <p>Nominee Director of NIPRO Corporation</p>
-                <p style="text-align:justify;">Mr. Katsuhiko Fujii was born in 1962 in Japan. He completed the Bachelor of Arts (BA) in English Literature from Kansai Gaidai University, Japan in the year 1984. After completion of his education he joined Nipro Corporation, Osaka, Japan in 1984 and served there up to 1992. Then he joined Nipro Europe NV / SA, Belgium and serving from 1992 to 2001. In the year 2001 he joined to Nipro (Shanghai) Co., Ltd., China and served there up to 2003. Then he joined to Nipro Trading (Shanghai) Co., Ltd., China as Assistant General Manager and serving there up to 2010. Then he joined to Nipro Medical (Hefei) Co., Ltd., China as Assistant Managing Director and General Manager. He served there from 2010 to 2016. After that, he joined to Nipro Corporation, Osaka, Japan as General Manager of Global Production Division and serving there from 2016 to till now. He is well experienced business guy in the medical & surgical devices sector and also a decision maker of Global Production Department of Nipro Corporation. Now he is appointed as Nominee Director of JMI Syringes & Medical Devices Ltd. in Bangladesh on behalf of NIPRO Corporation, Osaka, Japan.</p>
+                <img src="{{asset("frontend/assets/images/profile/top/hiroshi-saito.jpg")}}" alt="Suriya Akther Rina">
+                <h5>Mr. Hiroshi Saito</h5>
+                <p>(Nominee Director of NIPRO Corporation)</p>
+                <p style="text-align:justify;">Mr. Hiroshi Saito was born in 1972 in
+                                Japan. He completed the graduation
+                                in Business Administration from
+                                Washington State University, USA
+                                in the year 1997. After completion
+                                of his education he joined NTT
+                                DOCOMO Inc., Marunouchi Branch,
+                                Japan in 1997 and served there up
+                                to 2004. Then he assigned to NTT
+                                DOCOMO, USA, Inc., as Finance
+                                Manager and serving from 2004 to
+                                2008. In the year 2008 he assigned to NTT DOCOMO, Global Business Department till to 2011. In
+                                the year 2011 then he assigned to NTT DOCOMO, Inc., Hanoi
+                                Representative Office as Vice Representative till to 2013. In the
+                                year 2013 he assigned to NTT DOCOMO Singapore PTE. Ltd. as
+                                Deputy Managing Director till to 2015. Then 2015 he assigned
+                                to NTT DOCOMO, Inc., Global Business Division, Europ Business
+                                as Manager and serving their till to 2017. Then 2017 he assigned
+                                to NTT DOCOMO Brasil Servicos de Telecomunicacao Ltda, as
+                                Administration Manager and serving their till to 2019. Then 2019
+                                he assigned to NTT DOCOMO Inc., Takoi-Branch and serving their
+                                till to 2020 and finally resigned from NTT DOCOMO Inc. Then May
+                                2021 he joined to NIPRO Corporation, Osaka, Japan as Deputy
+                                Manager of Corporate Planning Department and transferred
+                                to Bangladesh as Executive Director, Finance & Accounts of JMI
+                                Syringes & Medical Devices Limited and till now continuing. He
+                                is a well experienced business guy in various field. Now he is
+                                appointed as Nominee Director of JMI Syringes & Medical Devices
+                                Ltd. in Bangladesh on behalf of NIPRO Corporation, Osaka, Japan</p>
                 <!-- More content about this person -->
               </div>
               <div class="person-bio">

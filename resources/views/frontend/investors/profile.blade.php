@@ -178,13 +178,15 @@
                             </div>
                         </div><!-- featured-imagebox-team end-->
                     </div>
+                   
+
                     <div class="ttm-box-col-wrapper col-lg-3 col-md-3 col-sm-6">
                         <!-- featured-imagebox-team -->
                         <div class="featured-imagebox featured-imagebox-team">
                             <div class="ttm-team-box-view-overlay">
                                 <div class="featured-iconbox ttm-media-link">
                                     <div class="media-block">
-                                        <a href="#" class="media-btn"><i class="ti ti-plus"></i></a>
+                                        
                                         <ul class="social-icons list-inline">
                                             <li class="social-facebook"><a href="#"><i class="ti ti-facebook"></i></a></li>
                                             <li class="social-twitter"><a href="#"><i class="ti ti-twitter-alt"></i></a></li>
@@ -193,17 +195,34 @@
                                     </div>
                                 </div>
                                 <div class="featured-thumbnail">
-                                    <img class="img-fluid" src="{{ asset('frontend/assets/images/profile/Fuji.jpg')}}" alt="image">
+                                    <img class="img-fluid" src="{{ asset('frontend/assets/images/profile/top/hiroshi-saito.jpg')}}" alt="image"> 
                                 </div>
                             </div>
                             <div class="featured-content featured-content-team">
                                 <div class="featured-title">
-                                    <h5><a href="#">Mr. Katsuhiko Fujii</a></h5>
+                                    <h5><a href="#">Hiroshi Saito</a></h5>
                                 </div>
-                                <div class="team-position">Nominee Director NIPRO Corporation</div>
+                                <div class="team-position">Director, Finance</div>
                             </div>
                         </div><!-- featured-imagebox-team end-->
                     </div>
+
+
+
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
                     <div class="ttm-box-col-wrapper col-lg-3 col-md-3 col-sm-6">
                         <!-- featured-imagebox-team -->
                         <div class="featured-imagebox featured-imagebox-team">
@@ -323,14 +342,14 @@
                                     </div>
                                 </div>
                                 <div class="featured-thumbnail">
-                                    <img class="img-fluid" src="{{ asset('frontend/assets/images/profile/Haque.jpg')}}" alt="image"> 
+                                    <img class="img-fluid" src="{{ asset('frontend/assets/images/profile/nazrul.png')}}" alt="image"> 
                                 </div>
                             </div>
                             <div class="featured-content featured-content-team">
                                 <div class="featured-title">
-                                    <h5><a href="#">Mr. Hisao Nakamori </a></h5>
+                                    <h5><a href="#">Mr. Md. Nazrul Islam  </a></h5>
                                 </div>
-                                <div class="team-position">Nominee Director of NIPRO Corporation</div>
+                                <div class="team-position">Independent Director</div>
                             </div>
                         </div><!-- featured-imagebox-team end-->
                     </div>
@@ -480,32 +499,13 @@
                             </div>
                         </div><!-- featured-imagebox-team end-->
                     </div>
-                    <div class="ttm-box-col-wrapper col-lg-3 col-md-3 col-sm-6">
-                        <!-- featured-imagebox-team -->
-                        <div class="featured-imagebox featured-imagebox-team">
-                            <div class="ttm-team-box-view-overlay">
-                                <div class="featured-iconbox ttm-media-link">
-                                    <div class="media-block">
-                                        
-                                        <ul class="social-icons list-inline">
-                                            <li class="social-facebook"><a href="#"><i class="ti ti-facebook"></i></a></li>
-                                            <li class="social-twitter"><a href="#"><i class="ti ti-twitter-alt"></i></a></li>
-                                            <li class="social-instagram"><a href="#"><i class="ti ti-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="featured-thumbnail">
-                                    <img class="img-fluid" src="{{ asset('frontend/assets/images/profile/top/hiroshi-saito.jpg')}}" alt="image"> 
-                                </div>
-                            </div>
-                            <div class="featured-content featured-content-team">
-                                <div class="featured-title">
-                                    <h5><a href="#">Hiroshi Saito</a></h5>
-                                </div>
-                                <div class="team-position">Director, Finance</div>
-                            </div>
-                        </div><!-- featured-imagebox-team end-->
-                    </div>
+                   
+
+
+
+
+
+
                     <div class="ttm-box-col-wrapper col-lg-3 col-md-3 col-sm-6">
                         <!-- featured-imagebox-team -->
                         <div class="featured-imagebox featured-imagebox-team">
@@ -841,6 +841,32 @@
                                     <h5><a href="#">Md. Sohel Zaman</a></h5>
                                 </div>
                                 <div class="team-position">Head of Internal Audit</div>
+                            </div>
+                        </div><!-- featured-imagebox-team end-->
+                    </div>
+                      <div class="ttm-box-col-wrapper col-lg-3 col-md-3 col-sm-6">
+                        <!-- featured-imagebox-team -->
+                        <div class="featured-imagebox featured-imagebox-team">
+                            <div class="ttm-team-box-view-overlay">
+                                <div class="featured-iconbox ttm-media-link">
+                                    <div class="media-block">
+                                     
+                                        <ul class="social-icons list-inline">
+                                            <li class="social-facebook"><a href="#"><i class="ti ti-facebook"></i></a></li>
+                                            <li class="social-twitter"><a href="#"><i class="ti ti-twitter-alt"></i></a></li>
+                                            <li class="social-instagram"><a href="#"><i class="ti ti-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="featured-thumbnail">
+                                    <img class="img-fluid" src="{{ asset('frontend/assets/images/profile/top/Abhjit Paul.jpg')}}" alt="image"> 
+                                </div>
+                            </div>
+                            <div class="featured-content featured-content-team">
+                                <div class="featured-title">
+                                    <h5><a href="#">Abhijit Paul</a></h5>
+                                </div>
+                                <div class="team-position">Head of Business Development</div>
                             </div>
                         </div><!-- featured-imagebox-team end-->
                     </div>
