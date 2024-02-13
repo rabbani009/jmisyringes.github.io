@@ -157,6 +157,14 @@
                         </div>
                     </div>
 
+                    <div class="col-lg-6 col-md-6">
+                        <div class="featured-item featured-team-item ttm-item-view-leftimage">
+                            <div class="featured-thumbnail">
+                                <img class="img-fluid" src="{{ asset('frontend/assets/investors/corporate governance/page_14.jpg')}}" alt="image">
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- Add more images here -->
                 </div>
                 <!-- Add more rows for additional images -->
